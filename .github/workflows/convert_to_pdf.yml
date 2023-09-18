@@ -20,7 +20,7 @@ jobs:
 
     - name: Convert Markdown to PDF
       run: |
-        pandoc README.md -o README.pdf --config pandoc-config.yaml
+        pandoc README.md -o README.pdf
       working-directory: ${{ github.workspace }}
 
     - name: Upload PDF artifact
