@@ -52,7 +52,7 @@ While many orchestration tools are not security-specific, they are often **core 
 
 ---
 
-## 🧬 Best Practices
+## ⚙️ Best Practices
 
 1. **Keep workflows modular**  
    Use small, reusable stages that can be plugged into different pipelines.

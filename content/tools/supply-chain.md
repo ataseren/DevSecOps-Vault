@@ -47,7 +47,7 @@ Supply chain security is not just about protecting your software — it's about 
 
 ---
 
-## 🧬 Best Practices
+## ⚙️ Best Practices
 
 1. **Generate SBOMs at build time**  
    Use tools like `Syft` or `cdxgen` to produce SBOMs and include them in your build artifacts.
