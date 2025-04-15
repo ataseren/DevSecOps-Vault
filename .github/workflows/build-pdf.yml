@@ -22,7 +22,8 @@ jobs:
       - name: 📄 Merge Markdown files
         run: |
           mkdir -p output
-          cat \
+
+          { cat \
             README.md \
             content/what-is-devsecops.md \
             content/checklist.md 
@@ -50,7 +51,7 @@ jobs:
             content/resources/labs.md \
             content/resources/vulnerable-apps.md \
             content/resources/conferences.md \
-            > output/devsecops-vault.md
+            } > output/devsecops-vault.md
 
       - name: 📚 Convert Markdown to PDF
         run: |
