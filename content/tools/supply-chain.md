@@ -1,4 +1,4 @@
-# 🔗 Supply Chain Security in DevSecOps
+# Supply Chain Security in DevSecOps
 
 Software supply chain security focuses on ensuring the **integrity, authenticity, and trustworthiness** of the components, tools, and workflows used to build and deploy software. This includes:
 
@@ -13,7 +13,7 @@ Recent attacks (SolarWinds, CodeCov, dependency confusion) have demonstrated how
 
 ---
 
-## 🎯 Why Supply Chain Security Matters
+## Why Supply Chain Security Matters
 
 - Modern software is **assembled, not written from scratch** — much of the code is external
 - **CI/CD pipelines are privileged environments** and attractive targets for attackers
@@ -24,7 +24,7 @@ Supply chain security is not just about protecting your software — it's about 
 
 ---
 
-## 🔐 Key Concepts
+## Key Concepts
 
 | Concept | Description |
 |--------|-------------|
@@ -35,7 +35,7 @@ Supply chain security is not just about protecting your software — it's about 
 
 ---
 
-## 🧰 Tools for Supply Chain Security
+## Tools for Supply Chain Security
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -47,7 +47,7 @@ Supply chain security is not just about protecting your software — it's about 
 
 ---
 
-## ⚙️ Best Practices
+## ️Best Practices
 
 1. **Generate SBOMs at build time**  
    Use tools like `Syft` or `cdxgen` to produce SBOMs and include them in your build artifacts.
@@ -72,7 +72,7 @@ Supply chain security is not just about protecting your software — it's about 
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [SLSA Levels (Official Site)](https://slsa.dev/spec/v1.0/)
 - [in-toto Project Overview](https://in-toto.io/)

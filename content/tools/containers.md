@@ -1,4 +1,4 @@
-# 📦 Container Security in DevSecOps
+# Container Security in DevSecOps
 
 Containers, especially Docker-based, are essential to modern DevOps workflows — but they also introduce unique security risks. Misconfigured Dockerfiles, vulnerable base images, overly permissive privileges, or unscanned third-party layers can lead to significant breaches in production environments.
 
@@ -11,7 +11,7 @@ In DevSecOps, container security spans the full lifecycle:
 
 ---
 
-## 🚨 Why Container Security Is Critical
+## Why Container Security Is Critical
 
 - Containers often **bundle dependencies** and OS libraries — increasing attack surface
 - **Vulnerabilities in base images** affect all downstream builds
@@ -21,7 +21,7 @@ In DevSecOps, container security spans the full lifecycle:
 
 ---
 
-## 🧰 Container Security Tools
+## Container Security Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -38,7 +38,7 @@ In DevSecOps, container security spans the full lifecycle:
 
 ---
 
-## ⚙️ Best Practices for Container Security
+## Best Practices for Container Security
 
 1. **Scan base images** early in your pipeline with Trivy or Grype.
 2. **Use minimal, hardened base images** like `distroless` or `alpine`.
@@ -51,7 +51,7 @@ In DevSecOps, container security spans the full lifecycle:
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [Docker Security Best Practices (Docker Docs)](https://docs.docker.com/engine/security/security/)
 - [Falco Rules and Use Cases](https://falco.org/docs/rules/)

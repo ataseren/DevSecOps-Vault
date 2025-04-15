@@ -1,4 +1,4 @@
-# 🛡 Policy as Code (PaC) in DevSecOps
+# Policy as Code (PaC) in DevSecOps
 
 Policy as Code (PaC) is the practice of defining security, compliance, and infrastructure rules in a programmable format. Rather than relying on manual reviews or documentation, policies are **version-controlled, testable, and enforced automatically**.
 
@@ -12,7 +12,7 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 
 ---
 
-## 🎯 Why Policy as Code?
+## Why Policy as Code?
 
 - **Automated enforcement** reduces human error
 - Policies can be tested, reviewed, and versioned like code
@@ -22,7 +22,7 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 
 ---
 
-## 🧰 Tools for Policy as Code
+## Tools for Policy as Code
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -35,7 +35,7 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 
 ---
 
-## ⚙️ Best Practices
+## ️Best Practices
 
 1. **Write policies in code, not documents** — integrate into CI/CD pipelines
 2. **Use fail-closed patterns** — block insecure resources unless explicitly whitelisted
@@ -48,7 +48,7 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 ---
 
 
-## 📚 Further Reading
+## Further Reading
 
 - [OPA Documentation](https://www.openpolicyagent.org/docs/latest/)
 - [Kyverno Policy Library](https://kyverno.io/policies/)

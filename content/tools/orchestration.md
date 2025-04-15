@@ -1,4 +1,4 @@
-# 🧩 Orchestration and Automation in DevSecOps
+# Orchestration and Automation in DevSecOps
 
 DevSecOps is not just about integrating security tools — it's also about automating and orchestrating how those tools interact. Orchestration platforms provide the **glue** that connects scanning tools, alerting systems, reporting dashboards, and response workflows.
 
@@ -12,7 +12,7 @@ While many orchestration tools are not security-specific, they are often **core 
 
 ---
 
-## ⚙️ Why Orchestration Matters
+## ️Why Orchestration Matters
 
 - DevSecOps pipelines can involve dozens of tools — orchestration helps them work together
 - Manual security workflows are slow and error-prone
@@ -21,7 +21,7 @@ While many orchestration tools are not security-specific, they are often **core 
 
 ---
 
-## 🧰 Orchestration & Automation Tools
+## Orchestration & Automation Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -32,7 +32,7 @@ While many orchestration tools are not security-specific, they are often **core 
 
 ---
 
-## 💡 Example Use Cases
+## Example Use Cases
 
 - After a CI build passes, automatically:
   - Trigger SAST & DAST scans
@@ -52,7 +52,7 @@ While many orchestration tools are not security-specific, they are often **core 
 
 ---
 
-## ⚙️ Best Practices
+## Best Practices
 
 1. **Keep workflows modular**  
    Use small, reusable stages that can be plugged into different pipelines.
@@ -72,7 +72,7 @@ While many orchestration tools are not security-specific, they are often **core 
 ---
 
 
-## 📚 Further Reading
+## Further Reading
 
 - [StackStorm Use Cases](https://stackstorm.com/case-studies/)
 - [DefectDojo Docs](https://defectdojo.github.io/django-DefectDojo/)

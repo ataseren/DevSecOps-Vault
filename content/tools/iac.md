@@ -1,4 +1,4 @@
-# 🛠 Infrastructure as Code (IaC) Security
+# Infrastructure as Code (IaC) Security
 
 Infrastructure as Code (IaC) allows teams to automate cloud infrastructure through declarative configuration files (e.g., Terraform, CloudFormation, Kubernetes YAMLs). While this improves efficiency and reproducibility, it also introduces **risk**:
 
@@ -12,7 +12,7 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 
 ---
 
-## 🎯 Why IaC Security Matters
+## Why IaC Security Matters
 
 - IaC defines **production infrastructure** — one typo can lead to breaches
 - Cloud-native breaches often stem from misconfiguration, not software bugs
@@ -21,7 +21,7 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 
 ---
 
-## 🧰 Tools for IaC Security
+## Tools for IaC Security
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -36,7 +36,7 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 
 ---
 
-## ⚙️ Best Practices for IaC Security
+## ️Best Practices for IaC Security
 
 1. **Integrate IaC scanning into CI/CD** (pre-commit hooks, GitHub Actions, GitLab CI, etc.)
 2. **Define organizational policies as code** (e.g., block exposed ports or wildcard IAM roles)
@@ -48,7 +48,7 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [IaC Security Maturity Model (Bridgecrew)](https://github.com/joelparkerhenderson/maturity-models/blob/main/examples/infrastructure-as-code/infrastructure-as-code-maturity-model-by-stafford/index.md)
 - [OpenSSF Releases Source Code Management Best Practices Guide](https://openssf.org/blog/2023/09/14/openssf-releases-source-code-management-best-practices-guide/)

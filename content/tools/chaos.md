@@ -1,4 +1,4 @@
-# 🧨 Chaos Engineering in DevSecOps
+# Chaos Engineering in DevSecOps
 
 Chaos Engineering is the discipline of experimenting on systems in production-like environments to build **confidence in their resilience**. The goal is to proactively identify weaknesses before they become incidents.
 
@@ -6,7 +6,7 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 
 ---
 
-## 🎯 Why Chaos Engineering for DevSecOps?
+## Why Chaos Engineering for DevSecOps?
 
 - Proves the reliability of **redundancy, failover, and detection** mechanisms
 - Simulates real-world disruptions — including security incidents (e.g., node isolation, pod compromise)
@@ -16,7 +16,7 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 
 ---
 
-## 🧰 Chaos Engineering Tools
+## Chaos Engineering Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -33,7 +33,7 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 
 ---
 
-## ⚙️ Best Practices for Chaos Engineering
+## Best Practices for Chaos Engineering
 
 1. **Run chaos in staging first**, but strive for production readiness
 2. **Monitor during experiments** — ensure metrics, alerts, and dashboards are informative
@@ -44,7 +44,7 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [Principles of Chaos Engineering](https://principlesofchaos.org/)
 - [Litmus Chaos Documentation](https://docs.litmuschaos.io/)

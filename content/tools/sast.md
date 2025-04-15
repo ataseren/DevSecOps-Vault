@@ -1,4 +1,4 @@
-# 🧪 Static Application Security Testing (SAST)
+# Static Application Security Testing (SAST)
 
 Static Application Security Testing (SAST) is a fundamental part of DevSecOps pipelines, enabling early detection of vulnerabilities by analyzing the source code, bytecode, or binaries **without executing the program**. Unlike DAST (Dynamic Application Security Testing), which simulates real-world attacks on running applications, SAST tools scan code to identify security flaws such as:
 
@@ -12,7 +12,7 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 
 ---
 
-## 🚧 Why SAST Matters in DevSecOps
+## Why SAST Matters in DevSecOps
 
 - **Prevents security debt** by catching issues before code reaches production
 - **Automates code reviews** for security anti-patterns and risky behaviors
@@ -21,7 +21,7 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 
 ---
 
-## 🔧 SAST Tooling Landscape
+## SAST Tooling Landscape
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -38,7 +38,7 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 
 ---
 
-## ⚙️ Best Practices for Using SAST in DevSecOps
+## Best Practices for Using SAST in DevSecOps
 
 1. **Integrate into CI/CD Pipelines**  
    Run SAST tools automatically on pull requests and merges. Tools like `Semgrep`, `Bandit`, and `gosec` can be run as GitHub Actions, GitLab CI jobs, or Jenkins stages.
@@ -60,13 +60,13 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 
 ---
 
-## ⚠️ Licensing Note for Semgrep Users
+## Licensing Note for Semgrep Users
 
 While the **Semgrep CLI and core ruleset** are open source and free to use, some advanced or commercial rules require a license. You can browse available rules and their licenses here: [https://semgrep.dev/r](https://semgrep.dev/r)
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [OWASP Source Code Analysis Tools](https://owasp.org/www-community/Source_Code_Analysis_Tools)
 - [Scan Source Code using SonarQube (Medium Guide)](https://medium.com/nycdev/scan-your-source-code-for-vulnerabilities-using-static-application-security-testing-sast-with-5f8ee1fdf9aa)

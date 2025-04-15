@@ -1,4 +1,4 @@
-# 💥 Vulnerable Applications for DevSecOps Practice
+# Vulnerable Applications for DevSecOps Practice
 
 Vulnerable applications are intentionally insecure systems built for learning. They’re essential for DevSecOps teams to test scanners, perform code analysis, validate threat models, and train developers and security engineers.
 
@@ -6,7 +6,7 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities �
 
 ---
 
-## 🧱 Web Applications
+## Web Applications
 
 | Name | Stack | Link | Description |
 |------|-------|------|-------------|
@@ -21,7 +21,7 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities �
 
 ---
 
-## ☁️ Serverless / Cloud
+## ️Serverless / Cloud
 
 | Name | Stack | Link | Description |
 |------|-------|------|-------------|
@@ -30,7 +30,7 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities �
 
 ---
 
-## 🐧 OS & Infrastructure
+## OS & Infrastructure
 
 | Name | Stack | Link | Description |
 |------|-------|------|-------------|
@@ -38,7 +38,7 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities �
 
 ---
 
-## 🧪 How to Use These Apps
+## How to Use These Apps
 
 1. **Test SAST, DAST, and SCA tools** (e.g., Semgrep, Nuclei, OWASP ZAP) against these apps
 2. Use them as targets in **CI/CD security pipelines** (e.g., GitHub Actions, Jenkins)

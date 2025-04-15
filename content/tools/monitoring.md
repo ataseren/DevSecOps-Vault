@@ -1,4 +1,4 @@
-# 📊 Monitoring & Observability in DevSecOps
+#  Monitoring & Observability in DevSecOps
 
 Monitoring plays a critical role in DevSecOps by providing visibility into systems, workloads, and pipelines — allowing teams to **detect anomalies, enforce policies, and respond to incidents in real time**.
 
@@ -12,7 +12,7 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 
 ---
 
-## 🎯 Why Monitoring Matters in DevSecOps
+##  Why Monitoring Matters in DevSecOps
 
 - Helps detect security issues **after deployment**, when static/dynamic testing may no longer apply
 - Enables real-time response to intrusion attempts or configuration drifts
@@ -21,7 +21,7 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 
 ---
 
-## 🧰 Monitoring & Security Observability Tools
+##  Monitoring & Security Observability Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -36,7 +36,7 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 
 ---
 
-## 📡 Common Security Metrics to Monitor
+##  Common Security Metrics to Monitor
 
 | Category | Examples |
 |----------|----------|
@@ -50,7 +50,7 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 
 ---
 
-## ⚙️ Best Practices
+## ️ Best Practices
 
 1. **Define SLAs for security metrics** just like performance metrics.
 2. **Centralize logs** from cloud, Kubernetes, CI, applications — normalize them for correlation.
@@ -63,7 +63,7 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 ---
 
 
-## 📚 Further Reading
+##  Further Reading
 
 - [Monitoring Kubernetes Security Best Practices (Sysdig)](https://sysdig.com/blog/kubernetes-security-guide/)
 - [Falco Rules Examples](https://falco.org/docs/rules/)

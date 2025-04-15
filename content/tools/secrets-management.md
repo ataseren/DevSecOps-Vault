@@ -1,4 +1,4 @@
-# 🔐 Secrets Management in DevSecOps
+# Secrets Management in DevSecOps
 
 Secrets management is a foundational discipline within DevSecOps, focusing on the secure handling of sensitive data such as passwords, API keys, encryption keys, tokens, and certificates. These secrets are critical for communication between services, infrastructure authentication, and secure application behavior — especially within modern CI/CD pipelines and cloud-native environments.
 
@@ -6,7 +6,7 @@ In DevSecOps, where automation and collaboration are paramount, the ability to *
 
 ---
 
-## 📌 Why Secrets Management is Crucial
+## Why Secrets Management is Crucial
 
 Modern software systems rely heavily on automated deployments, microservices, and distributed infrastructure. This creates numerous entry points and access needs across components, tools, and teams. Secrets — such as database credentials, cloud provider access keys, or signing certificates — are used extensively across:
 
@@ -26,7 +26,7 @@ By implementing proper secrets management, DevSecOps teams can protect against t
 
 ---
 
-## 🧰 Tools for Secrets Detection and Management
+## Tools for Secrets Detection and Management
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -45,7 +45,7 @@ By implementing proper secrets management, DevSecOps teams can protect against t
 
 ---
 
-## ⚙️ Best Practices for Secrets Management
+## ️Best Practices for Secrets Management
 
 - **Never hardcode secrets** in source code or CI/CD configs.
 - **Use environment variables** injected securely at runtime via orchestrators or vault tools.

@@ -1,10 +1,10 @@
-# 🎤 DevSecOps Conferences & Events
+# DevSecOps Conferences & Events
 
 Conferences and meetups are excellent for learning the latest in DevSecOps, sharing experiences, and discovering new tools and practices. Whether you're focused on secure CI/CD, Kubernetes, cloud security, or software supply chain integrity — there are tracks and talks for you.
 
 ---
 
-## 🌍 DevSecOps & AppSec Focused Conferences
+## DevSecOps & AppSec Focused Conferences
 
 | Conference | Link | Description |
 |------------|------|-------------|
@@ -17,7 +17,7 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 
 ---
 
-## ☁️ Cloud & Platform Conferences
+## ️Cloud & Platform Conferences
 
 | Conference | Link | Description |
 |------------|------|-------------|
@@ -30,7 +30,7 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 
 ---
 
-## 🧠 DevOps + General Tech Conferences (with DevSecOps Content)
+## DevOps + General Tech Conferences (with DevSecOps Content)
 
 | Conference | Link | Description |
 |------------|------|-------------|
@@ -41,7 +41,7 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 
 ---
 
-## 📚 Why Attend?
+## Why Attend?
 
 - Discover new DevSecOps tools before they’re mainstream
 - Learn from case studies, failures, and real-life pipeline transformations

@@ -1,4 +1,4 @@
-# ☁️ Cloud Security in DevSecOps
+# Cloud Security in DevSecOps
 
 In DevSecOps, securing cloud infrastructure is just as critical as securing application code. With the rise of Infrastructure as Code and automated CI/CD, cloud environments can change rapidly — and security needs to keep up.
 
@@ -6,7 +6,7 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 
 ---
 
-## 🌐 Multi-Cloud Security Tools
+## Multi-Cloud Security Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -17,7 +17,7 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 
 ---
 
-## 🟡 AWS Security Tools
+## AWS Security Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -41,7 +41,7 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 
 ---
 
-## 🔵 GCP-Specific Tool
+## GCP-Specific Tool
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -49,7 +49,7 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 
 ---
 
-## ⚙️ Best Practices for Cloud Security
+## ️Best Practices for Cloud Security
 
 1. Continuously scan for **resource misconfigurations** and open attack surfaces
 2. Enforce **least privilege IAM policies** with tools like `policy_sentry`, `AirIAM`
@@ -60,7 +60,7 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [AWS Security Best Practices](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
 - [GCP Security Foundations Guide](https://cloud.google.com/architecture/security-foundations)

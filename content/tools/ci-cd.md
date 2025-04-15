@@ -1,4 +1,4 @@
-# ⚙️ CI/CD Security
+# CI/CD Security
 
 In DevSecOps, securing the Continuous Integration and Continuous Deployment (CI/CD) pipeline is crucial. While CI/CD accelerates software delivery, it also introduces new **attack surfaces** such as:
 
@@ -13,7 +13,7 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 
 ---
 
-## 🎯 Why Securing CI/CD Matters
+## Why Securing CI/CD Matters
 
 - CI/CD systems often hold **the keys to the kingdom** (deploy credentials, secrets, access tokens).
 - They run with high privileges and can modify or deploy infrastructure and application code.
@@ -22,9 +22,9 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 
 ---
 
-## 🧰 Tools for CI/CD Hardening and Monitoring
+## Tools for CI/CD Hardening and Monitoring
 
-### 🔒 GitHub Actions Security
+### GitHub Actions Security
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -32,7 +32,7 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 | **GitHub Actions Security Best Practices (Salesforce)** | [Blog](https://engineering.salesforce.com/github-actions-security-best-practices-b8f9df5c75f5) | Practical strategies from Salesforce for securing workflows. | – |
 | **GitGuardian GitHub Actions Cheat Sheet** | [Blog](https://blog.gitguardian.com/github-actions-security-cheat-sheet/) | A summarized, visual checklist of secure actions usage, tokens, and more. | – |
 
-### 🔐 Jenkins Security
+### Jenkins Security
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -42,7 +42,7 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 
 ---
 
-## 🛠️ Security Considerations for CI/CD Systems
+## Security Considerations for CI/CD Systems
 
 | Aspect | Best Practices |
 |--------|----------------|
@@ -57,7 +57,7 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 
 ---
 
-## 🧬 Integrating Security into CI/CD Workflows
+## Integrating Security into CI/CD Workflows
 
 - **Before Commit**: Use `pre-commit`, `detect-secrets`, `talisman`, `semgrep` locally
 - **On Push**: Trigger full SAST/DAST scans, SBOM generation, dependency checks
@@ -66,7 +66,7 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [GitHub Actions Hardening Guide (GitHub Docs)](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
 - [GitHub Actions Security Cheat Sheet (GitGuardian)](https://blog.gitguardian.com/github-actions-security-cheat-sheet/)

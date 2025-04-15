@@ -1,5 +1,5 @@
 
-# ☸️ Kubernetes Security in DevSecOps
+# ️Kubernetes Security in DevSecOps
 
 Kubernetes has become the de facto standard for container orchestration — but with great power comes significant complexity. A misconfigured cluster, insecure workload, or overly permissive RBAC role can expose entire environments.
 
@@ -13,7 +13,7 @@ Kubernetes security involves multiple layers:
 
 ---
 
-## 🔐 Why Kubernetes Security Matters
+## Why Kubernetes Security Matters
 
 - Kubernetes is often deployed in **multi-tenant, production-grade** environments
 - Poorly secured clusters can be **lateral movement playgrounds**
@@ -23,7 +23,7 @@ Kubernetes security involves multiple layers:
 
 ---
 
-## 🧰 Kubernetes Security Tools
+## Kubernetes Security Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -49,7 +49,7 @@ Kubernetes security involves multiple layers:
 
 ---
 
-## ⚙️ Best Practices for Kubernetes Security
+## ️Best Practices for Kubernetes Security
 
 1. **Scan manifests before applying** using tools like `kube-score`, `kubesec`, `kube-linter`.
 2. **Audit RBAC roles** frequently with tools like `KubiScan` or `Krane`.
@@ -63,7 +63,7 @@ Kubernetes security involves multiple layers:
 ---
 
 
-## 📚 Further Reading
+## Further Reading
 
 - [NSA/CISA Kubernetes Hardening Guide](https://media.defense.gov/2022/Aug/29/2003066362/-1/-1/0/CTR_KUBERNETES_HARDENING_GUIDANCE_1.2_20220829.PDF)
 - [MITRE ATT&CK for Containers](https://attack.mitre.org/matrices/enterprise/containers/)

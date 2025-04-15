@@ -6,7 +6,7 @@ DevSecOps is an approach to software development that integrates security into t
 
 ---
 
-## ✅ Why DevSecOps?
+## Why DevSecOps?
 
 - **Security from the Start**: Security is built into the pipeline from the first line of code, not tacked on at the end.
 - **Collaboration**: Developers, security professionals, and operations teams work together to automate and embed security throughout the SDLC.
@@ -15,7 +15,7 @@ DevSecOps is an approach to software development that integrates security into t
 
 ---
 
-## 🔐 Key Practices in DevSecOps
+## Key Practices in DevSecOps
 
 1. **Secure Design**: Threat modeling and secure architecture from the early stages.
 2. **Secure Coding**: Adherence to language-specific secure coding standards.
@@ -26,7 +26,7 @@ DevSecOps is an approach to software development that integrates security into t
 
 ---
 
-## 🔗 Learn More
+## Learn More
 
 Here are some great resources to explore DevSecOps further:
 

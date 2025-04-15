@@ -1,4 +1,4 @@
-# 📦 Dependency and SBOM Management
+# Dependency and SBOM Management
 
 Modern applications rely heavily on third-party libraries, frameworks, and open-source components. While these speed up development, they also introduce risks from outdated, vulnerable, or even malicious packages — often referred to as **supply chain risks**.
 
@@ -13,7 +13,7 @@ Dependency management in DevSecOps includes:
 
 ---
 
-## 🚧 Why It's Important
+## Why It's Important
 
 - **Visibility**: Know exactly what your application is built with — including all third-party code.
 - **Security**: Identify vulnerable components before they are exploited.
@@ -22,7 +22,7 @@ Dependency management in DevSecOps includes:
 
 ---
 
-## 🧰 Dependency Management & SBOM Tools
+## Dependency Management & SBOM Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -46,7 +46,7 @@ Dependency management in DevSecOps includes:
 
 ---
 
-## ⚙️ Best Practices for Dependency & SBOM Security
+## ️Best Practices for Dependency & SBOM Security
 
 1. **Always scan third-party libraries** as part of your CI/CD process using SCA tools like `DependencyCheck`, `Snyk`, or `Retire.js`.
 
@@ -64,7 +64,7 @@ Dependency management in DevSecOps includes:
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [CycloneDX Specification](https://cyclonedx.org/specification/overview/)
 - [SPDX – The Software Package Data Exchange](https://spdx.dev)

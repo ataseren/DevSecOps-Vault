@@ -1,4 +1,4 @@
-# 🌐 Dynamic Application Security Testing (DAST)
+# Dynamic Application Security Testing (DAST)
 
 Dynamic Application Security Testing (DAST) is a black-box testing technique that analyzes running applications by simulating real-world attacks. Unlike SAST, which inspects source code without execution, DAST interacts with live instances of the application (typically through HTTP) to discover vulnerabilities like:
 
@@ -13,7 +13,7 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 
 ---
 
-## 🚧 Why DAST is Critical
+## Why DAST is Critical
 
 - **Covers runtime vulnerabilities** that static tools may miss
 - **Simulates real attacker behavior** in QA/staging/production environments
@@ -23,7 +23,7 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 
 ---
 
-## 🧰 Common DAST Tools
+## Common DAST Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -37,7 +37,7 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 
 ---
 
-## ⚙️ Best Practices for DAST in DevSecOps
+## ️Best Practices for DAST in DevSecOps
 
 1. **Run in staging or test environments**  
    Since DAST tools actively probe endpoints, it’s best to scan non-production instances unless the tool is explicitly configured to be safe.
@@ -59,7 +59,7 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [ZAP + GitHub Actions Tutorial](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/)
 - [GitLab DAST Integration](https://docs.gitlab.com/ee/user/application_security/dast/)

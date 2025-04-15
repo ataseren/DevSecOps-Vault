@@ -1,4 +1,4 @@
-# 🛑 Pre-Commit Security Tools
+# Pre-Commit Security Tools
 
 DevSecOps pre-commit tools are a critical part of the software development lifecycle, particularly for organizations that prioritize security in their development processes. These tools help ensure that security considerations are integrated into every step of the development process, from coding to deployment.
 
@@ -18,7 +18,7 @@ Overall, DevSecOps pre-commit tools play a critical role in ensuring that securi
 
 
 
-## 📦 Tools for Pre-commit Stage
+## Tools for Pre-commit Stage
 
 | Name | URL | Description | Stars |
 | :--- | :-- | :---------- | :---: |

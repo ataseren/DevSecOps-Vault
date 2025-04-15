@@ -1,4 +1,4 @@
-# 🔐 DevSecOps Vault
+#  DevSecOps Vault
 
 A curated, modular knowledge base for building and scaling secure DevOps (a.k.a. DevSecOps) pipelines.  
 This repository brings together tools, best practices, checklists, and resources to help you **"shift security left"** — making it a core part of your SDLC.
@@ -7,13 +7,13 @@ This repository brings together tools, best practices, checklists, and resources
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
-### 📘 Foundations
+###  Foundations
 - [What is DevSecOps](./content/what-is-devsecops.md)
 - [DevSecOps Security Checklist](./content/checklist.md)
 
-### 🛠️ Tools by Category
+### ️ Tools by Category
 - [Pre-Commit Tools](./content/tools/precommit.md)
 - [Secrets Management](./content/tools/secrets-management.md)
 - [SAST Tools](./content/tools/sast.md)
@@ -29,7 +29,7 @@ This repository brings together tools, best practices, checklists, and resources
 - [Chaos Engineering](./content/tools/chaos.md)
 - [Monitoring (WIP)](./content/tools/monitoring.md)
 
-### 📚 Learning & References
+###  Learning & References
 - [Books & Publications](./content/resources/books.md)
 - [Conferences](./content/resources/conferences.md)
 - [Training Labs](./content/resources/labs.md)
@@ -37,7 +37,7 @@ This repository brings together tools, best practices, checklists, and resources
 
 ---
 
-## 🧭 Philosophy
+##  Philosophy
 
 DevSecOps isn't a tool — it's a **mindset and cultural shift**. It empowers teams to take ownership of security from the first line of code to deployment, monitoring, and beyond.
 
@@ -48,7 +48,7 @@ By breaking this repository into modular files under the `content/` directory, w
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Want to add a tool, update a broken link, or fix a typo?
 
@@ -56,6 +56,6 @@ Just submit an issue or a pull request — all contributions are welcome!
 
 ---
 
-## 📄 License
+##  License
 
 [MIT License](./LICENSE)
