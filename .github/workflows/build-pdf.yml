@@ -1,0 +1,77 @@
+name: Build DevSecOps Vault PDF
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
+
+      - name: 📦 Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc wkhtmltopdf
+
+      - name: 📄 Merge Markdown files
+        run: |
+          mkdir -p output
+          cat \
+            README.md \
+            content/what-is-devsecops.md \
+            content/checklist.md 
+                                  
+            echo "# Tools"
+          cat \
+            content/tools/precommit.md \
+            content/tools/secrets-management.md \
+            content/tools/sast.md \
+            content/tools/dast.md \
+            content/tools/dependency-management.md \
+            content/tools/supply-chain.md \           
+            content/tools/ci-cd.md \
+            content/tools/containers.md \
+            content/tools/kubernetes.md \
+            content/tools/cloud.md \
+            content/tools/iac.md \
+            content/tools/policy-as-code.md \
+            content/tools/chaos.md \
+            content/tools/monitoring.md \
+          
+            echo "# Resources"
+          cat \
+            content/resources/books.md \
+            content/resources/labs.md \
+            content/resources/vulnerable-apps.md \
+            content/resources/conferences.md \
+            > output/devsecops-vault.md
+
+      - name: 📚 Convert Markdown to PDF
+        run: |
+          pandoc output/devsecops-vault.md -o output/devsecops-vault.pdf \
+            --pdf-engine=wkhtmltopdf \
+            --toc --toc-depth=2 \
+            -V geometry:margin=(Latest)1in \
+            -V title="DevSecOps Vault" \
+            --resource-path=.:./imgs
+
+      - name: 📤 Upload PDF artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: DevSecOps-Vault-PDF
+          path: output/devsecops-vault.pdf
+      
+      - name: 📤 Create GitHub Release and Upload PDF
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: DevSecOps Vault ${{ github.ref_name }}
+          files: output/devsecops-vault.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

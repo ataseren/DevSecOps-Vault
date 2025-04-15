@@ -32,7 +32,8 @@ This repository brings together tools, best practices, checklists, and resources
 ### 📚 Learning & References
 - [Books & Publications](./content/resources/books.md)
 - [Conferences](./content/resources/conferences.md)
-- [Training Labs & Vulnerable Targets](./content/resources/labs.md)
+- [Training Labs](./content/resources/labs.md)
+- [Vulnerable Targets](./content/resources/vulnerable-apps.md)
 
 ---
 
