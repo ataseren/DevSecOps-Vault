@@ -56,7 +56,7 @@ jobs:
           pandoc output/devsecops-vault.md -o output/devsecops-vault.pdf \
             --pdf-engine=wkhtmltopdf \
             --toc --toc-depth=2 \
-            -V geometry:margin=(Latest)1in \
+            -V geometry:margin=1in \
             -V title="DevSecOps Vault" \
             --resource-path=.:./imgs
 
