@@ -11,7 +11,6 @@ Kubernetes security involves multiple layers:
 - Monitoring runtime behavior and network traffic
 - Detecting risky permissions and attack vectors
 
----
 
 ## Why Kubernetes Security Matters
 
@@ -21,7 +20,6 @@ Kubernetes security involves multiple layers:
 - Network policies, RBAC, and admission control are often **misunderstood or underused**
 - Kubernetes expands the attack surface — APIs, controllers, secrets, etc.
 
----
 
 ## Kubernetes Security Tools
 
@@ -47,7 +45,6 @@ Kubernetes security involves multiple layers:
 | **Badrobot** | [GitHub](https://github.com/controlplaneio/badrobot) | Audits Kubernetes Operators for risky access and behavior | ![Stars](https://img.shields.io/github/stars/controlplaneio/badrobot) |
 | **Istio** | [Website](https://istio.io) | Service mesh with built-in mutual TLS, RBAC, and telemetry. Useful for network-level Kubernetes security. | ![Stars](https://img.shields.io/github/stars/istio/istio) |
 
----
 
 ## ️Best Practices for Kubernetes Security
 
@@ -60,7 +57,6 @@ Kubernetes security involves multiple layers:
 7. **Monitor runtime behavior** using `Falco`, `Inspektor Gadget`, or `Mizu`.
 8. **Integrate security findings into CRDs** via `Starboard` for native visibility.
 
----
 
 
 ## Further Reading

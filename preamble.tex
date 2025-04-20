@@ -1,0 +1,21 @@
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{etoolbox}
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+\usepackage{setspace}
+\onehalfspacing
+
+\let\Oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[2][]{%
+  \begin{center}
+    \Oldincludegraphics[width=0.9\linewidth,keepaspectratio]{#2}%
+    \vspace{-0.5em}
+  \end{center}
+}
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother

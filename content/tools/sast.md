@@ -10,7 +10,6 @@ Static Application Security Testing (SAST) is a fundamental part of DevSecOps pi
 
 SAST tools are ideal for **"shift-left"** security — identifying vulnerabilities before the code is even compiled, and integrating these checks into IDEs or CI pipelines ensures fast feedback loops and secure-by-design coding practices.
 
----
 
 ## Why SAST Matters in DevSecOps
 
@@ -19,7 +18,6 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 - **Integrates seamlessly** into developer workflows (e.g., Git hooks, IDEs, CI/CD)
 - **Provides education**: highlights insecure patterns and recommends best practices
 
----
 
 ## SAST Tooling Landscape
 
@@ -36,7 +34,6 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 | **Safety** | [GitHub](https://github.com/pyupio/safety) | Checks Python dependencies (from `requirements.txt`) for known vulnerabilities using a vulnerability DB. | ![Stars](https://img.shields.io/github/stars/pyupio/safety?style=for-the-badge) |
 | **ESLint** | [Website](https://eslint.org/) | Widely used JavaScript/TypeScript linter. Security rules can be added via plugins like `eslint-plugin-security`. | – |
 
----
 
 ## Best Practices for Using SAST in DevSecOps
 
@@ -58,13 +55,11 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 6. **Train Developers with Contextual Feedback**  
    Use SAST reports to teach secure coding practices. Many tools offer links to CWE/OWASP references and remediation steps.
 
----
 
 ## Licensing Note for Semgrep Users
 
 While the **Semgrep CLI and core ruleset** are open source and free to use, some advanced or commercial rules require a license. You can browse available rules and their licenses here: [https://semgrep.dev/r](https://semgrep.dev/r)
 
----
 
 ## Further Reading
 

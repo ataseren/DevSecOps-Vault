@@ -1,4 +1,4 @@
-# DevSecOps Labs & Hands-on Platforms
+# DevSecOps Labs and Hands-on Platforms
 
 DevSecOps is best learned through practice. These labs and training platforms allow you to build, break, and secure applications and infrastructure in simulated or real environments.
 
@@ -11,7 +11,6 @@ They cover key areas such as:
 - Container and cloud security
 - Infrastructure as Code testing
 
----
 
 ## ‍General DevSecOps Training
 
@@ -27,7 +26,6 @@ They cover key areas such as:
 - **Link**: [infoseclabs.net](http://www.infoseclabs.net)
 - A lab environment providing practical scenarios in offensive and defensive security.
 
----
 
 ## Security-Specific Labs
 
@@ -43,7 +41,6 @@ They cover key areas such as:
 - **Link**: [vulnhub.com](https://www.vulnhub.com/)
 - Download and run vulnerable virtual machines to simulate attacks, exploits, and secure configurations.
 
----
 
 ## Cloud & CI/CD Focused Platforms
 

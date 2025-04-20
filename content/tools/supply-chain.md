@@ -11,7 +11,6 @@ Software supply chain security focuses on ensuring the **integrity, authenticity
 
 Recent attacks (SolarWinds, CodeCov, dependency confusion) have demonstrated how attackers target the software supply chain rather than just the application itself.
 
----
 
 ## Why Supply Chain Security Matters
 
@@ -22,7 +21,6 @@ Recent attacks (SolarWinds, CodeCov, dependency confusion) have demonstrated how
 
 Supply chain security is not just about protecting your software — it's about protecting your users, customers, and everyone who depends on what you ship.
 
----
 
 ## Key Concepts
 
@@ -33,7 +31,6 @@ Supply chain security is not just about protecting your software — it's about 
 | **Provenance** | The complete trace of a software artifact’s origin, including who built it, how, and with what tools |
 | **Tamper Evidence** | Mechanisms (e.g., signatures, hashes) that reveal if any component has been modified |
 
----
 
 ## Tools for Supply Chain Security
 
@@ -45,7 +42,6 @@ Supply chain security is not just about protecting your software — it's about 
 | **kritis** | [GitHub](https://github.com/grafeas/kritis) | Policy engine for enforcing image signatures and metadata in Kubernetes clusters | ![Stars](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge) |
 | **Ratify** | [GitHub](https://github.com/deislabs/ratify) | Extensible framework for verifying container artifact signatures, attestations, and policies | ![Stars](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge) |
 
----
 
 ## ️Best Practices
 
@@ -70,7 +66,6 @@ Supply chain security is not just about protecting your software — it's about 
 7. **Continuously monitor dependencies**  
    Combine SCA + SBOM ingestion (e.g., via `DependencyTrack`) to detect downstream impact from known CVEs.
 
----
 
 ## Further Reading
 

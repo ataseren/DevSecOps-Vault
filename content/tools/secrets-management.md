@@ -4,8 +4,6 @@ Secrets management is a foundational discipline within DevSecOps, focusing on th
 
 In DevSecOps, where automation and collaboration are paramount, the ability to **manage secrets securely, consistently, and at scale** becomes essential. Poor secrets management can lead to devastating security breaches, leaked credentials, unauthorized access, and non-compliance with industry regulations.
 
----
-
 ## Why Secrets Management is Crucial
 
 Modern software systems rely heavily on automated deployments, microservices, and distributed infrastructure. This creates numerous entry points and access needs across components, tools, and teams. Secrets — such as database credentials, cloud provider access keys, or signing certificates — are used extensively across:
@@ -24,7 +22,6 @@ Without secure handling, secrets are often:
 
 By implementing proper secrets management, DevSecOps teams can protect against these risks and ensure secrets are encrypted, rotated regularly, audited, and only accessible by authorized entities.
 
----
 
 ## Tools for Secrets Detection and Management
 
@@ -43,7 +40,6 @@ By implementing proper secrets management, DevSecOps teams can protect against t
 | **Chef Vault** | [GitHub](https://github.com/chef/chef-vault) | Tool for securely encrypting and sharing data bags across Chef infrastructure. Integrates with Chef’s access control features. | ![Stars](https://img.shields.io/github/stars/chef/chef-vault?style=for-the-badge) |
 | **Ansible Vault** | [Docs](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html) | Encrypts variable files, YAML config, and secrets used within Ansible playbooks. Simple to use for secret sharing and version control. | ![Badge](https://img.shields.io/github/stars/ansible-community/ansible-vault?style=for-the-badge) |
 
----
 
 ## ️Best Practices for Secrets Management
 

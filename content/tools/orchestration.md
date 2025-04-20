@@ -10,7 +10,6 @@ While many orchestration tools are not security-specific, they are often **core 
 - Aggregating alerts and analysis across systems
 - Reducing manual intervention for repetitive security tasks
 
----
 
 ## ️Why Orchestration Matters
 
@@ -19,7 +18,6 @@ While many orchestration tools are not security-specific, they are often **core 
 - Automated response and reporting reduce MTTR and increase visibility
 - Reproducible pipelines improve trust and auditability
 
----
 
 ## Orchestration & Automation Tools
 
@@ -30,7 +28,6 @@ While many orchestration tools are not security-specific, they are often **core 
 | **DefectDojo** | [GitHub](https://github.com/DefectDojo/django-DefectDojo) | A vulnerability management and orchestration platform. Consolidates scan results, manages findings, tracks remediation. | ![Stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=for-the-badge) |
 | **Faraday** | [GitHub](https://github.com/infobyte/faraday) | Collaborative vulnerability management platform with plugin-based orchestration and reporting support. Great for red and blue teams. | ![Stars](https://img.shields.io/github/stars/infobyte/faraday?style=for-the-badge) |
 
----
 
 ## Example Use Cases
 
@@ -50,7 +47,6 @@ While many orchestration tools are not security-specific, they are often **core 
   - Trigger a security review workflow in Camunda
   - Resume pipeline only if approved
 
----
 
 ## Best Practices
 
@@ -68,8 +64,6 @@ While many orchestration tools are not security-specific, they are often **core 
 
 5. **Automate responses to low-hanging issues**  
    Auto-fix dependency versions, reject vulnerable builds, or send reminders without human intervention.
-
----
 
 
 ## Further Reading

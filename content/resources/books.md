@@ -10,7 +10,6 @@ These resources can help you:
 - Shift security left in the SDLC
 - Foster a collaborative DevSecOps culture
 
----
 
 ## Foundational Reads
 
@@ -24,7 +23,6 @@ These resources can help you:
 - **Authors**: Jim Bird
 - **Description**: Discusses how to embed security into fast-moving DevOps environments through automation, collaboration, and shared responsibility.
 
----
 
 ## Container & Cloud Security
 
@@ -33,8 +31,6 @@ These resources can help you:
 - **Author**: Adrian Mouat
 - **Description**: Covers security considerations and hardening techniques specific to Docker and containerized workloads.
 
----
-
 ## ‍Developer-Centric Security
 
 ### Holistic Info-Sec for Web Developers
@@ -42,7 +38,6 @@ These resources can help you:
 - **Author**: Michal Špaček
 - **Description**: A security guide for developers, covering secure design patterns, common mistakes, and modern best practices.
 
----
 
 ## DevOps Culture & Transformation
 
@@ -51,7 +46,6 @@ These resources can help you:
 - **Authors**: Gene Kim, Jez Humble, Patrick Debois, John Willis
 - **Description**: Covers the DevOps transformation journey, with a dedicated section on security integration within high-performance organizations.
 
----
 
 ## Suggested Reading Paths
 
@@ -64,5 +58,4 @@ If you're focused on containers and cloud:
 If you're a developer looking to write secure code:
 - Dive into **Holistic Info-Sec for Web Developers**.
 
----
 

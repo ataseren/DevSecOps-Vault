@@ -16,50 +16,23 @@ jobs:
 
       - name:  Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc wkhtmltopdf
+          sudo apt-get update && sudo apt-get install -y \
+            pandoc \
+            texlive-latex-base \
+            texlive-latex-recommended \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-xetex \
+            texlive-luatex \
+            fonts-lmodern \
+            fonts-dejavu \
+            fonts-liberation
 
       - name:  Merge Markdown files
-        run: |
-          mkdir -p output
-          cat \
-            README.md \
-            content/what-is-devsecops.md \
-            content/checklist.md 
-                                  
-            echo "# Tools"
-          cat \
-            content/tools/precommit.md \
-            content/tools/secrets-management.md \
-            content/tools/sast.md \
-            content/tools/dast.md \
-            content/tools/dependency-management.md \
-            content/tools/supply-chain.md \           
-            content/tools/ci-cd.md \
-            content/tools/containers.md \
-            content/tools/kubernetes.md \
-            content/tools/cloud.md \
-            content/tools/iac.md \
-            content/tools/policy-as-code.md \
-            content/tools/chaos.md \
-            content/tools/monitoring.md \
-          
-            echo "# Resources"
-          cat \
-            content/resources/books.md \
-            content/resources/labs.md \
-            content/resources/vulnerable-apps.md \
-            content/resources/conferences.md \
-            > output/devsecops-vault.md
+        run: ./merge.sh
 
       - name:  Convert Markdown to PDF
-        run: |
-          pandoc output/devsecops-vault.md -o output/devsecops-vault.pdf \
-            --pdf-engine=wkhtmltopdf \
-            --toc --toc-depth=2 \
-            -V geometry:margin=(Latest)1in \
-            -V title="DevSecOps Vault" \
-            --resource-path=.:./imgs
+        run: ./pdf.sh
 
       - name:  Upload PDF artifact
         uses: actions/upload-artifact@v4

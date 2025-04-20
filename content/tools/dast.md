@@ -11,7 +11,6 @@ Dynamic Application Security Testing (DAST) is a black-box testing technique tha
 
 DAST tools are ideal for identifying vulnerabilities that arise from configuration issues, runtime behavior, or security flaws that only become apparent during execution.
 
----
 
 ## Why DAST is Critical
 
@@ -20,8 +19,6 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 - **Works language-agnostically** — applicable to any web application regardless of the stack
 - **Detects misconfigurations** such as open directories, missing headers, or dangerous endpoints
 - **Complements SAST/SCA** for full-stack security coverage
-
----
 
 ## Common DAST Tools
 
@@ -35,7 +32,6 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 | **Nikto** | [GitHub](https://github.com/sullo/nikto) | Web server vulnerability scanner that detects outdated components, dangerous files, and security headers. | ![Nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) |
 | **Skipfish** | [Archived](https://code.google.com/archive/p/skipfish/) | Fast web app security recon tool from Google. Useful for brute-force fuzzing and link crawling. | ![Skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) |
 
----
 
 ## ️Best Practices for DAST in DevSecOps
 
@@ -57,7 +53,7 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 6. **Baseline and suppress false positives**  
    DAST tools often produce noise — invest time in tuning your rules and maintaining suppression lists for known-safe behavior.
 
----
+
 
 ## Further Reading
 

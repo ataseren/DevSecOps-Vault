@@ -11,7 +11,6 @@ Dependency management in DevSecOps includes:
 - Detecting tampering or dependency confusion attacks
 - Ensuring compliance with open-source licenses
 
----
 
 ## Why It's Important
 
@@ -20,7 +19,6 @@ Dependency management in DevSecOps includes:
 - **Compliance**: Demonstrate awareness of licensing and security standards (e.g., NIST 800-218 / SSDF).
 - **Traceability**: SBOMs help in incident response, legal inquiries, and operational auditing.
 
----
 
 ## Dependency Management & SBOM Tools
 
@@ -44,7 +42,6 @@ Dependency management in DevSecOps includes:
 | **Security Scorecards** | [Website](https://securityscorecards.dev) | Scorecard of open-source repos using metrics like branch protection, dependency update automation, and security posture. | ![Stars](https://img.shields.io/github/stars/ossf/scorecard?style=for-the-badge) |
 | **Syft** | [GitHub](https://github.com/anchore/syft) | Generates SBOMs for container images, filesystems, and codebases. Outputs CycloneDX, SPDX, etc. | ![Stars](https://img.shields.io/github/stars/anchore/syft?style=for-the-badge) |
 
----
 
 ## ️Best Practices for Dependency & SBOM Security
 
@@ -62,7 +59,6 @@ Dependency management in DevSecOps includes:
 
 7. **Include license checks** in your dependency scans to maintain legal compliance.
 
----
 
 ## Further Reading
 

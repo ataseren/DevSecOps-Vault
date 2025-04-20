@@ -5,7 +5,6 @@ This repository brings together tools, best practices, checklists, and resources
 
 ![DevSecOps Lifecycle](./imgs/devsecopslife.png)
 
----
 
 ##  Table of Contents
 
@@ -27,7 +26,8 @@ This repository brings together tools, best practices, checklists, and resources
 - [Infrastructure as Code Security](./content/tools/iac.md)
 - [Policy as Code](./content/tools/policy-as-code.md)
 - [Chaos Engineering](./content/tools/chaos.md)
-- [Monitoring (WIP)](./content/tools/monitoring.md)
+- [Orchestration and Automation](./content/tools/orchestration.md)
+- [Monitoring](./content/tools/monitoring.md)
 
 ###  Learning & References
 - [Books & Publications](./content/resources/books.md)
@@ -35,7 +35,6 @@ This repository brings together tools, best practices, checklists, and resources
 - [Training Labs](./content/resources/labs.md)
 - [Vulnerable Targets](./content/resources/vulnerable-apps.md)
 
----
 
 ##  Philosophy
 
@@ -46,7 +45,6 @@ By breaking this repository into modular files under the `content/` directory, w
 - **Maintainable** by contributors
 - **Navigable** for learners and professionals alike
 
----
 
 ##  Contributing
 
@@ -54,8 +52,8 @@ Want to add a tool, update a broken link, or fix a typo?
 
 Just submit an issue or a pull request — all contributions are welcome!
 
----
 
 ##  License
 
 [MIT License](./LICENSE)
+

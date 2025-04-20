@@ -1,4 +1,4 @@
-#  Monitoring & Observability in DevSecOps
+# Monitoring and Observability in DevSecOps
 
 Monitoring plays a critical role in DevSecOps by providing visibility into systems, workloads, and pipelines — allowing teams to **detect anomalies, enforce policies, and respond to incidents in real time**.
 
@@ -10,7 +10,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 - Alerting on policy violations or suspicious behavior
 - Forensics and post-incident analysis
 
----
 
 ##  Why Monitoring Matters in DevSecOps
 
@@ -19,7 +18,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 - Supports compliance requirements via logging and alerting
 - Provides **forensic data** for incident response and auditing
 
----
 
 ##  Monitoring & Security Observability Tools
 
@@ -34,7 +32,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 | **Zabbix** | [GitHub](https://github.com/zabbix/zabbix) | Infrastructure monitoring solution with flexible alerting and audit support | ![Stars](https://img.shields.io/github/stars/zabbix/zabbix?style=for-the-badge) |
 | **Wazuh** | [GitHub](https://github.com/wazuh/wazuh) | Security-focused monitoring platform built on OSSEC for host intrusion detection, file integrity, log analysis | ![Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=for-the-badge) |
 
----
 
 ##  Common Security Metrics to Monitor
 
@@ -48,7 +45,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 | **Secrets Access** | Access to vault, environment variable changes, AWS token usage |
 | **File Integrity** | Changes in binaries, unexpected writes in /etc, log tampering |
 
----
 
 ## ️ Best Practices
 
@@ -60,7 +56,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 6. **Tag events with metadata** (commit ID, container hash, user) for forensic clarity.
 7. **Store logs securely and immutably**, especially for compliance environments.
 
----
 
 
 ##  Further Reading

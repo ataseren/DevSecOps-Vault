@@ -10,7 +10,6 @@ PaC allows organizations to enforce:
 
 By treating policies like software, DevSecOps teams gain consistency, visibility, and scalability across cloud and infrastructure environments.
 
----
 
 ## Why Policy as Code?
 
@@ -20,7 +19,6 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 - Enables **continuous governance** in Kubernetes and cloud
 - Encourages **self-service infrastructure with guardrails**
 
----
 
 ## Tools for Policy as Code
 
@@ -33,7 +31,6 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 | **InSpec** | [GitHub](https://github.com/inspec/inspec) | Security and compliance testing framework by Chef (now Progress) | ![Stars](https://img.shields.io/github/stars/inspec/inspec?style=for-the-badge) |
 | **cnspec** | [GitHub](https://github.com/mondoohq/cnspec) | Cloud-native security engine to assess infrastructure, APIs, IaC, and SaaS environments | ![Stars](https://img.shields.io/github/stars/mondoohq/cnspec?style=for-the-badge) |
 
----
 
 ## ️Best Practices
 
@@ -44,8 +41,6 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 5. **Tag violations with metadata** for traceability and reporting
 6. **Promote policy-as-self-service** — let devs test and validate policies locally
 7. **Use different engines where appropriate** (OPA for APIs, Kyverno for K8s, cf-guard for CloudFormation)
-
----
 
 
 ## Further Reading

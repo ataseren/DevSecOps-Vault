@@ -4,7 +4,7 @@ Chaos Engineering is the discipline of experimenting on systems in production-li
 
 While traditional security practices focus on **preventing attacks**, Chaos Engineering ensures your systems can **recover from failures and attacks** gracefully — including downtime, latency spikes, DNS misroutes, resource exhaustion, and compromised containers.
 
----
+
 
 ## Why Chaos Engineering for DevSecOps?
 
@@ -14,7 +14,7 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 - Identifies **hidden dependencies** and brittle configurations
 - Strengthens CI/CD pipelines by **integrating chaos as a test phase**
 
----
+
 
 ## Chaos Engineering Tools
 
@@ -31,7 +31,7 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 | **AWS FIS Samples** | [GitHub](https://github.com/aws-samples/aws-fault-injection-simulator-samples) | Fault Injection Simulator templates for AWS workloads (e.g., EC2, ECS, RDS chaos) | ![Stars](https://img.shields.io/github/stars/aws-samples/aws-fault-injection-simulator-samples?style=for-the-badge) |
 | **CloudNuke** | [GitHub](https://github.com/gruntwork-io/cloud-nuke) | CLI tool to destroy all cloud resources in a test environment — extreme chaos testing | ![Stars](https://img.shields.io/github/stars/gruntwork-io/cloud-nuke?style=for-the-badge) |
 
----
+
 
 ## Best Practices for Chaos Engineering
 
@@ -42,7 +42,7 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 5. **Automate in CI/CD pipelines** — test resilience per commit or release
 6. **Chaos ≠ Randomness** — the goal is controlled failure, not unpredictability
 
----
+
 
 ## Further Reading
 

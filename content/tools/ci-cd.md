@@ -11,7 +11,7 @@ In DevSecOps, securing the Continuous Integration and Continuous Deployment (CI/
 
 An insecure CI/CD setup can result in **complete compromise of your source code, cloud credentials, production systems**, or supply chain integrity.
 
----
+
 
 ## Why Securing CI/CD Matters
 
@@ -20,7 +20,7 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 - Attackers actively target build pipelines (e.g., SolarWinds, CodeCov, CircleCI breaches).
 - Ensuring pipeline security is essential to the trustworthiness of software supply chains.
 
----
+
 
 ## Tools for CI/CD Hardening and Monitoring
 
@@ -40,7 +40,6 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 | **SANS Whitepaper – Securing Jenkins CI Systems** | [PDF](https://www.sans.org/white-papers/36872/) | A thorough breakdown of Jenkins security threats and defense mechanisms. | – |
 | **chef-jenkins-hardening** | [GitHub](https://github.com/dev-sec/chef-jenkins-hardening) | (Deprecated) Infrastructure-as-code module to apply security best practices in Jenkins deployments. | ![Stars](https://img.shields.io/github/stars/dev-sec/chef-jenkins-hardening?style=for-the-badge) |
 
----
 
 ## Security Considerations for CI/CD Systems
 
@@ -55,7 +54,6 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 | **Branch Protections** | Enforce signed commits, status checks, and PR reviews before deployments |
 | **Secrets Scanning** | Integrate tools like `detect-secrets`, `gitleaks`, or `ggshield` directly into pipelines |
 
----
 
 ## Integrating Security into CI/CD Workflows
 
@@ -64,7 +62,6 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 - **Before Deploy**: Validate secrets, enforce policy-as-code (e.g., OPA), verify image signatures
 - **Post Deploy**: Monitor system logs, validate health, send alerts on anomalies
 
----
 
 ## Further Reading
 

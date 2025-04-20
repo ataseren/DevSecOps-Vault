@@ -1,8 +1,6 @@
-# DevSecOps Conferences & Events
+# DevSecOps Conferences and Events
 
 Conferences and meetups are excellent for learning the latest in DevSecOps, sharing experiences, and discovering new tools and practices. Whether you're focused on secure CI/CD, Kubernetes, cloud security, or software supply chain integrity — there are tracks and talks for you.
-
----
 
 ## DevSecOps & AppSec Focused Conferences
 
@@ -15,7 +13,6 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 | **BSides** | [securitybsides.com](https://www.securitybsides.com/) | Community-driven events held globally — practical talks often include DevSecOps tooling and stories. |
 | **DEF CON AppSec Village** | [appsecvillage.dev](https://www.appsecvillage.dev/) | Application Security focus inside DEF CON — includes DevSecOps, CI/CD and cloud security content. |
 
----
 
 ## ️Cloud & Platform Conferences
 
@@ -28,7 +25,6 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 | **GitHub Universe** | [githubuniverse.com](https://githubuniverse.com/) | GitHub’s annual event covering secure coding, scanning, and GitHub Actions. |
 | **GitLab Commit** | [about.gitlab.com/events/commit](https://about.gitlab.com/events/commit/) | DevSecOps sessions on pipelines, scanning, secrets, and shift-left practices. |
 
----
 
 ## DevOps + General Tech Conferences (with DevSecOps Content)
 
@@ -39,7 +35,6 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 | **IP Expo Europe** | [ipexpoeurope.com](http://www.ipexpoeurope.com/) | Broader IT conference with cloud, AI, and cybersecurity tracks (DevSecOps adjacent). |
 | **ISACA Ireland Conference** | [ISACA Ireland](https://www.isaca.org/chapters5/Ireland/conference/pages/Agenda.aspx) | Includes governance, risk, and compliance — intersects with DevSecOps controls and frameworks. |
 
----
 
 ## Why Attend?
 

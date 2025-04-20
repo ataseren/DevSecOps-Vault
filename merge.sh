@@ -3,29 +3,29 @@
 mkdir -p output
 
 {
-  cat README.md
-  cat content/what-is-devsecops.md
-  cat content/checklist.md
+  cat content/first-page.md; echo
+  cat content/what-is-devsecops.md; echo
+  cat content/checklist.md; echo
 
-  echo "# Tools"
-  cat content/tools/precommit.md
-  cat content/tools/secrets-management.md
-  cat content/tools/sast.md
-  cat content/tools/dast.md
-  cat content/tools/dependency-management.md
-  cat content/tools/supply-chain.md
-  cat content/tools/ci-cd.md
-  cat content/tools/containers.md
-  cat content/tools/kubernetes.md
-  cat content/tools/cloud.md
-  cat content/tools/iac.md
-  cat content/tools/policy-as-code.md
-  cat content/tools/chaos.md
-  cat content/tools/monitoring.md
+  echo "# Tools"; echo
+  cat content/tools/precommit.md; echo
+  cat content/tools/secrets-management.md; echo
+  cat content/tools/sast.md; echo
+  cat content/tools/dast.md; echo
+  cat content/tools/dependency-management.md; echo
+  cat content/tools/supply-chain.md; echo
+  cat content/tools/ci-cd.md; echo
+  cat content/tools/containers.md; echo
+  cat content/tools/kubernetes.md; echo
+  cat content/tools/cloud.md; echo
+  cat content/tools/iac.md; echo
+  cat content/tools/policy-as-code.md; echo
+  cat content/tools/chaos.md; echo
+  cat content/tools/monitoring.md; echo
 
-  echo "# Resources"
-  cat content/resources/books.md
-  cat content/resources/labs.md
-  cat content/resources/vulnerable-apps.md
-  cat content/resources/conferences.md
+  echo "# Resources"; echo
+  cat content/resources/books.md; echo
+  cat content/resources/labs.md; echo
+  cat content/resources/vulnerable-apps.md; echo
+  cat content/resources/conferences.md; echo
 } > output/devsecops-vault.md

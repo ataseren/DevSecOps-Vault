@@ -4,7 +4,6 @@ In DevSecOps, securing cloud infrastructure is just as critical as securing appl
 
 Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and untagged resources are among the **most common sources of cloud breaches**. The tools below help identify, remediate, and enforce secure cloud posture across AWS, GCP, and Azure.
 
----
 
 ## Multi-Cloud Security Tools
 
@@ -15,7 +14,6 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 | **CloudCustodian** | [GitHub](https://github.com/cloud-custodian/cloud-custodian/) | Policy-as-code engine to manage cloud governance rules across providers | ![Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=for-the-badge) |
 | **CloudGraph** | [GitHub](https://github.com/cloudgraphdev/cli) | GraphQL-based security visualization engine for AWS, Azure, GCP, and K8s | ![Stars](https://img.shields.io/github/stars/cloudgraphdev/cli?style=for-the-badge) |
 
----
 
 ## AWS Security Tools
 
@@ -39,7 +37,6 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 | **Yor** | [GitHub](https://github.com/bridgecrewio/yor) | Adds tags to IaC (Terraform, CloudFormation) for traceability and ownership | ![Stars](https://img.shields.io/github/stars/bridgecrewio/yor?style=for-the-badge) |
 | **aws-firewall-factory** | [GitHub](https://github.com/globaldatanet/aws-firewall-factory) | Automates deployment and management of AWS WAF across accounts | ![Stars](https://img.shields.io/github/stars/globaldatanet/aws-firewall-factory?style=for-the-badge) |
 
----
 
 ## GCP-Specific Tool
 
@@ -47,7 +44,6 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 |------|-----|-------------|:-----:|
 | **Forseti Security** | [GitHub](https://github.com/forseti-security/forseti-security) | Suite of tools for auditing and securing Google Cloud Platform environments | ![Stars](https://img.shields.io/github/stars/forseti-security/forseti-security?style=for-the-badge) |
 
----
 
 ## ️Best Practices for Cloud Security
 
@@ -58,7 +54,6 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 5. Enable **cross-account and multi-region visibility**
 6. Integrate **compliance scans** into CI/CD and infrastructure provisioning steps
 
----
 
 ## Further Reading
 

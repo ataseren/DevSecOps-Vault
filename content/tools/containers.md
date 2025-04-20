@@ -9,7 +9,6 @@ In DevSecOps, container security spans the full lifecycle:
 - Runtime protection (e.g., syscall monitoring)
 - Compliance with hardening benchmarks (e.g., CIS)
 
----
 
 ## Why Container Security Is Critical
 
@@ -19,7 +18,6 @@ In DevSecOps, container security spans the full lifecycle:
 - **Default Docker configurations** (e.g., `--privileged`, open ports) are often insecure
 - Runtime security issues like **container escape** or **lateral movement** must be mitigated
 
----
 
 ## Container Security Tools
 
@@ -36,7 +34,6 @@ In DevSecOps, container security spans the full lifecycle:
 | **Cosign** | [GitHub](https://github.com/sigstore/cosign) | Container signing and verification tool as part of the Sigstore project. Works with OCI registries. | ![Stars](https://img.shields.io/github/stars/sigstore/cosign?style=for-the-badge) |
 | **watchtower** | [GitHub](https://github.com/containrrr/watchtower) | Automatically updates running containers when new images are pushed to the registry. Useful for patching. | ![Stars](https://img.shields.io/github/stars/containrrr/watchtower?style=for-the-badge) |
 
----
 
 ## Best Practices for Container Security
 
@@ -48,8 +45,6 @@ In DevSecOps, container security spans the full lifecycle:
 6. **Monitor at runtime** — tools like Falco help detect behavior anomalies (e.g., unexpected system calls).
 7. **Use private registries** (e.g., Harbor) with RBAC, scanning, and image expiration policies.
 8. **Automate updates** for patched images using tools like Watchtower or Renovate with tag filtering.
-
----
 
 ## Further Reading
 

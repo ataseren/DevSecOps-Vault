@@ -2,16 +2,9 @@
 
 This checklist outlines key practices across the software development lifecycle to embed security into DevOps processes.
 
----
-
-![DevSecOps Checklist](../imgs/check.png)
-
-
- [Here is a link for example checklist by Sqreen](./devsecops-security-checklist.pdf)
+[Here is a link for example checklist by Sqreen](./devsecops-security-checklist.pdf)
 
 **The example checklist below provides more solid steps and resources, allowing adjustments to tailor a DevSecOps checklist specific to your project's needs and yours.**
-
----
 
 ## 1. Design
 
@@ -32,8 +25,6 @@ This checklist outlines key practices across the software development lifecycle 
 - [Threagile - Agile Threat Modeling Toolkit](https://threagile.io)
 - [OWASP Threat Dragon](https://threatdragon.github.io)
 
----
-
 ## 2. Develop
 
 ### Secure Coding Standards
@@ -44,7 +35,6 @@ This checklist outlines key practices across the software development lifecycle 
 - [Android App Security Best Practices (Google)](https://developer.android.com/topic/security/best-practices)
 - [Securing Rails Applications](https://guides.rubyonrails.org/security.html)
 
----
 
 ## 3. Build
 
@@ -53,7 +43,6 @@ This checklist outlines key practices across the software development lifecycle 
 - [SAST with SonarQube – Part 1](https://medium.com/nycdev/scan-your-source-code-for-vulnerabilities-using-static-application-security-testing-sast-with-5f8ee1fdf9aa)
 - [GitHub Blog: Code Scanning Tools](https://github.blog/2020-10-05-announcing-third-party-code-scanning-tools-static-analysis-and-developer-security-training/)
 
----
 
 ## 4. Test
 
@@ -68,7 +57,6 @@ This checklist outlines key practices across the software development lifecycle 
 
 - [Penetration Testing at DevSecOps Speed](https://securityboulevard.com/2019/04/penetration-testing-at-devsecops-speed/)
 
----
 
 ## 5. Deploy
 
@@ -81,7 +69,6 @@ This checklist outlines key practices across the software development lifecycle 
 
 - [Best Practices for Scanning Docker Images](https://docs.docker.com/develop/scan-images/)
 
----
 
 ## 6. Operate and Monitor
 

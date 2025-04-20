@@ -4,8 +4,6 @@ Vulnerable applications are intentionally insecure systems built for learning. T
 
 These apps simulate common web, cloud, mobile, and serverless vulnerabilities ‚Äî including the OWASP Top 10.
 
----
-
 ## Web Applications
 
 | Name | Stack | Link | Description |
@@ -19,7 +17,6 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities ‚Ä
 | **NodeGoat** | Node.js | [GitHub](https://github.com/owasp/nodegoat) | Teaches security through insecure Node.js-based app ‚Äî includes source and walkthroughs. |
 | **OWASP WebGoatPHP** | PHP | [GitHub](https://github.com/OWASP/OWASPWebGoatPHP) | PHP version of WebGoat, focused on insecure PHP practices. |
 
----
 
 ## Ô∏èServerless / Cloud
 
@@ -28,7 +25,6 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities ‚Ä
 | **OWASP DVSA (Damn Vulnerable Serverless App)** | AWS Lambda | [GitHub](https://github.com/owasp/dvsa) | Insecure serverless functions to demonstrate attacks like insecure IAM, SSRF, broken auth. |
 | **LambHack** | AWS Lambda | [GitHub](https://github.com/wickett/lambhack) | Serverless CTF-style lab to explore the unique risks in AWS Lambda apps. |
 
----
 
 ## OS & Infrastructure
 
@@ -36,7 +32,6 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities ‚Ä
 |------|-------|------|-------------|
 | **Metasploitable** | Linux | [Rapid7 Docs](https://docs.rapid7.com/metasploit/metasploitable/) | Insecure virtual machine full of remote service flaws, perfect for internal testing and exploitation. |
 
----
 
 ## How to Use These Apps
 

@@ -1,10 +1,8 @@
 # What is DevSecOps
 
-![Gartner DevSecOps Lifecycle](../imgs/gartner.png)
-
 DevSecOps is an approach to software development that integrates security into the entire software development lifecycle (SDLC). It combines the principles of DevOps with security to create a culture where security is everyone's responsibility — from developers to operations teams.
 
----
+![Gartner DevSecOps Lifecycle](../imgs/gartner.png)
 
 ## Why DevSecOps?
 
@@ -13,7 +11,6 @@ DevSecOps is an approach to software development that integrates security into t
 - **Automation & Monitoring**: Security checks (e.g., scanning, testing, compliance) are automated and monitored continuously.
 - **Faster Delivery**: Security integration accelerates delivery by reducing late-stage security bottlenecks.
 
----
 
 ## Key Practices in DevSecOps
 
@@ -24,7 +21,6 @@ DevSecOps is an approach to software development that integrates security into t
 5. **Monitoring and Response**: Real-time monitoring of applications and infrastructure for threats.
 6. **Compliance and Governance**: Automating checks for security policies and regulations.
 
----
 
 ## Learn More
 

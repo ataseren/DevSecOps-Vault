@@ -10,7 +10,6 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 
 **IaC Security tools help shift security left** by scanning code before it’s deployed.
 
----
 
 ## Why IaC Security Matters
 
@@ -19,7 +18,6 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 - IaC files are version-controlled — scanning them fits naturally into CI/CD
 - Automated scanning ensures consistent policy enforcement across environments
 
----
 
 ## Tools for IaC Security
 
@@ -34,7 +32,6 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 | **tflint** | [GitHub](https://github.com/terraform-linters/tflint) | Terraform linter with plugins for security and style | ![Stars](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge) |
 | **Sysdig IaC Scanner (GitHub Action)** | [GitHub](https://github.com/sysdiglabs/cloud-iac-scanner-action) | GitHub Action that scans IaC repositories and comments on PRs | ![Stars](https://img.shields.io/github/stars/sysdiglabs/cloud-iac-scanner-action?style=for-the-badge) |
 
----
 
 ## ️Best Practices for IaC Security
 
@@ -46,7 +43,6 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 6. **Scan all IaC types** — including Terraform, Helm charts, Dockerfiles, K8s YAML, and CDK
 7. **Standardize baseline templates** to prevent repeated mistakes across teams
 
----
 
 ## Further Reading
 

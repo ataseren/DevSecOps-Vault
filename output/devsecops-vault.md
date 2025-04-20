@@ -3,39 +3,38 @@
 A curated, modular knowledge base for building and scaling secure DevOps (a.k.a. DevSecOps) pipelines.  
 This repository brings together tools, best practices, checklists, and resources to help you **"shift security left"** — making it a core part of your SDLC.
 
-![DevSecOps Lifecycle](./imgs/devsecopslife.png)
+![DevSecOps Lifecycle](../imgs/devsecopslife.png)
 
----
 
 ##  Table of Contents
 
 ###  Foundations
-- [What is DevSecOps](./content/what-is-devsecops.md)
-- [DevSecOps Security Checklist](./content/checklist.md)
+- [What is DevSecOps](#what-is-devsecops)
+- [DevSecOps Security Checklist](#devsecops-security-checklist)
 
 ### ️ Tools by Category
-- [Pre-Commit Tools](./content/tools/precommit.md)
-- [Secrets Management](./content/tools/secrets-management.md)
-- [SAST Tools](./content/tools/sast.md)
-- [DAST Tools](./content/tools/dast.md)
-- [Dependency & SBOM Management](./content/tools/dependency-management.md)
-- [Supply Chain Security](./content/tools/supply-chain.md)
-- [CI/CD Security](./content/tools/ci-cd.md)
-- [Containers & Image Scanning](./content/tools/containers.md)
-- [Kubernetes Security](./content/tools/kubernetes.md)
-- [Multi-Cloud & Cloud Provider Security](./content/tools/cloud.md)
-- [Infrastructure as Code Security](./content/tools/iac.md)
-- [Policy as Code](./content/tools/policy-as-code.md)
-- [Chaos Engineering](./content/tools/chaos.md)
-- [Monitoring (WIP)](./content/tools/monitoring.md)
+- [Pre-Commit Tools](#pre-commit-security-tools)
+- [Secrets Management](#secrets-management-in-devsecops)
+- [SAST Tools](#static-application-security-testing-sast)
+- [DAST Tools](#dynamic-application-security-testing-dast)
+- [Dependency & SBOM Management](#dependency-and-sbom-management)
+- [Supply Chain Security](#supply-chain-security-in-devsecops)
+- [CI/CD Security](#cicd-security)
+- [Containers & Image Scanning](#container-security-in-devsecops)
+- [Kubernetes Security](#kubernetes-security-in-devsecops)
+- [Multi-Cloud & Cloud Provider Security](#cloud-security-in-devsecops)
+- [Infrastructure as Code Security](#infrastructure-as-code-iac-security)
+- [Policy as Code](#policy-as-code-pac-in-devsecops)
+- [Chaos Engineering](#chaos-engineering-in-devsecops)
+- [Orchestration and Automation](#orchestration-and-automation-in-devsecops)
+- [Monitoring](#monitoring-and-observability-in-devsecops)
 
 ###  Learning & References
-- [Books & Publications](./content/resources/books.md)
-- [Conferences](./content/resources/conferences.md)
-- [Training Labs](./content/resources/labs.md)
-- [Vulnerable Targets](./content/resources/vulnerable-apps.md)
+- [Books & Publications](#devsecops-books)
+- [Conferences](#devsecops-conferences-and-events)
+- [Training Labs](#devsecops-labs-and-hands-on-platforms)
+- [Vulnerable Targets](#vulnerable-applications-for-devsecops-practice)
 
----
 
 ##  Philosophy
 
@@ -46,7 +45,6 @@ By breaking this repository into modular files under the `content/` directory, w
 - **Maintainable** by contributors
 - **Navigable** for learners and professionals alike
 
----
 
 ##  Contributing
 
@@ -54,29 +52,28 @@ Want to add a tool, update a broken link, or fix a typo?
 
 Just submit an issue or a pull request — all contributions are welcome!
 
----
 
 ##  License
 
 [MIT License](./LICENSE)
-# What is DevSecOps
 
-![Gartner DevSecOps Lifecycle](../imgs/gartner.png)
+
+# What is DevSecOps
 
 DevSecOps is an approach to software development that integrates security into the entire software development lifecycle (SDLC). It combines the principles of DevOps with security to create a culture where security is everyone's responsibility — from developers to operations teams.
 
----
+![Gartner DevSecOps Lifecycle](../imgs/gartner.png)
 
-##  Why DevSecOps?
+
+## Why DevSecOps?
 
 - **Security from the Start**: Security is built into the pipeline from the first line of code, not tacked on at the end.
 - **Collaboration**: Developers, security professionals, and operations teams work together to automate and embed security throughout the SDLC.
 - **Automation & Monitoring**: Security checks (e.g., scanning, testing, compliance) are automated and monitored continuously.
 - **Faster Delivery**: Security integration accelerates delivery by reducing late-stage security bottlenecks.
 
----
 
-##  Key Practices in DevSecOps
+## Key Practices in DevSecOps
 
 1. **Secure Design**: Threat modeling and secure architecture from the early stages.
 2. **Secure Coding**: Adherence to language-specific secure coding standards.
@@ -85,9 +82,8 @@ DevSecOps is an approach to software development that integrates security into t
 5. **Monitoring and Response**: Real-time monitoring of applications and infrastructure for threats.
 6. **Compliance and Governance**: Automating checks for security policies and regulations.
 
----
 
-##  Learn More
+## Learn More
 
 Here are some great resources to explore DevSecOps further:
 
@@ -98,24 +94,18 @@ Here are some great resources to explore DevSecOps further:
 - [Spacelift – Blog on DevSecOps](https://spacelift.io/blog/what-is-devsecops)
 
 
-#  DevSecOps Security Checklist
+
+# DevSecOps Security Checklist
 
 This checklist outlines key practices across the software development lifecycle to embed security into DevOps processes.
 
----
-
-![DevSecOps Checklist](../imgs/check.png)
-
-
- [Here is a link for example checklist by Sqreen](./devsecops-security-checklist.pdf)
+[Here is a link for example checklist by Sqreen](./devsecops-security-checklist.pdf)
 
 **The example checklist below provides more solid steps and resources, allowing adjustments to tailor a DevSecOps checklist specific to your project's needs and yours.**
 
----
+## 1. Design
 
-## 1.  Design
-
-###  Secure Development Lifecycles
+### Secure Development Lifecycles
 
 - [Microsoft SDL (Secure Development Lifecycle)](https://www.microsoft.com/en-us/securityengineering/sdl/practices)
 - [OWASP SAMM (Software Assurance Maturity Model)](https://github.com/OWASP/samm)
@@ -124,7 +114,7 @@ This checklist outlines key practices across the software development lifecycle 
 - [GitLab - 9 Tips for Shifting Left](https://about.gitlab.com/blog/2020/06/23/efficient-devsecops-nine-tips-shift-left/)
 - [GitLab - Speed and Security](https://about.gitlab.com/blog/2019/10/31/speed-security-devops/)
 
-### ️ Threat Modeling
+### Threat Modeling
 
 - [Wikipedia: Threat Modeling](https://en.wikipedia.org/wiki/Threat_model)
 - [OWASP: Threat Modeling](https://owasp.org/www-community/Threat_Modeling)
@@ -132,11 +122,9 @@ This checklist outlines key practices across the software development lifecycle 
 - [Threagile - Agile Threat Modeling Toolkit](https://threagile.io)
 - [OWASP Threat Dragon](https://threatdragon.github.io)
 
----
+## 2. Develop
 
-## 2. ‍ Develop
-
-###  Secure Coding Standards
+### Secure Coding Standards
 
 - [Apple Secure Coding Guide](https://developer.apple.com/library/archive/documentation/Security/Conceptual/SecureCodingGuide/Introduction.html)
 - [Secure Coding Guidelines for Java SE (Oracle)](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
@@ -144,63 +132,61 @@ This checklist outlines key practices across the software development lifecycle 
 - [Android App Security Best Practices (Google)](https://developer.android.com/topic/security/best-practices)
 - [Securing Rails Applications](https://guides.rubyonrails.org/security.html)
 
----
 
-## 3. ️ Build
+## 3. Build
 
-###  SAST (Static Application Security Testing)
+### SAST (Static Application Security Testing)
 
 - [SAST with SonarQube – Part 1](https://medium.com/nycdev/scan-your-source-code-for-vulnerabilities-using-static-application-security-testing-sast-with-5f8ee1fdf9aa)
 - [GitHub Blog: Code Scanning Tools](https://github.blog/2020-10-05-announcing-third-party-code-scanning-tools-static-analysis-and-developer-security-training/)
 
----
 
-## 4.  Test
+## 4. Test
 
-###  DAST (Dynamic Application Security Testing)
+### DAST (Dynamic Application Security Testing)
 
 - [ZAP + GitHub Actions](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/)
 - [GitLab DAST Docs](https://docs.gitlab.com/ee/user/application_security/dast/)
 - [Nuclei GitHub Action](https://github.com/secopslab/nuclei-action)
 - [ZAPCon 2021 – Democratizing ZAP](https://youtu.be/jimW-R6_F4U)
 
-### ️‍️ Penetration Testing
+### Penetration Testing
 
 - [Penetration Testing at DevSecOps Speed](https://securityboulevard.com/2019/04/penetration-testing-at-devsecops-speed/)
 
----
 
-## 5.  Deploy
+## 5. Deploy
 
-### ️ Hardening & Configuration
+### Hardening & Configuration
 
 - [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
 - [DevSecOps in Kubernetes (Microsoft)](https://cloudblogs.microsoft.com/opensource/2019/07/22/devsecops-in-kubernetes/)
 
-###  Image Scanning
+### Image Scanning
 
 - [Best Practices for Scanning Docker Images](https://docs.docker.com/develop/scan-images/)
 
----
 
-## 6.  Operate and Monitor
+## 6. Operate and Monitor
 
-### ️ Runtime Protection
+### Runtime Protection
 
 - [RASP by Rapid7](https://www.rapid7.com/fundamentals/runtime-application-self-protection/)
 - [DevSecOps with IAST and RASP (OWASP EU 2018)](https://2018.appsec.eu/presos/DevOps_Jumpstarting-Your-DevSecOps_Jeff-Williams_AppSecEU2018.pdf)
 
-###  Patch and Audit
+### Patch and Audit
 
 - Integrate RASP and IAST tools for runtime protection and feedback.
 - Conduct regular security audits and reviews.
 
-###  Monitoring & Metrics
+### Monitoring & Metrics
 
 - Use SIEMs and runtime metrics to monitor app health and anomalies.
 - [OWASP Attack Surface Analysis Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html)
+
 # Tools
-#  Pre-Commit Security Tools
+
+# Pre-Commit Security Tools
 
 DevSecOps pre-commit tools are a critical part of the software development lifecycle, particularly for organizations that prioritize security in their development processes. These tools help ensure that security considerations are integrated into every step of the development process, from coding to deployment.
 
@@ -220,35 +206,34 @@ Overall, DevSecOps pre-commit tools play a critical role in ensuring that securi
 
 
 
-##  Tools for Pre-commit Stage
+## Tools for Pre-commit Stage
 
 | Name | URL | Description | Stars |
-| :--- | :-- | :---------- | :---: |
-| **git-secrets** | [GitHub](https://github.com/awslabs/git-secrets) | Prevents committing secrets to git | ![Stars](https://img.shields.io/github/stars/awslabs/git-secrets?style=for-the-badge) |
-| **git-hound** | [GitHub](https://github.com/tillson/git-hound) | Searches for secrets in git history | ![Stars](https://img.shields.io/github/stars/tillson/git-hound?style=for-the-badge) |
-| **goSDL** | [GitHub](https://github.com/slackhq/goSDL) | Secure Development Lifecycle checklist by Slack | ![Stars](https://img.shields.io/github/stars/slackhq/goSDL?style=for-the-badge) |
-| **ThreatPlaybook** | [GitHub](https://github.com/we45/ThreatPlaybook) | Threat modeling as code | ![Stars](https://img.shields.io/github/stars/we45/ThreatPlaybook?style=for-the-badge) |
-| **Threat Dragon** | [GitHub](https://github.com/OWASP/threat-dragon) | OWASP threat modeling tool | ![Stars](https://img.shields.io/github/stars/OWASP/threat-dragon?style=for-the-badge) |
-| **threatspec** | [GitHub](https://github.com/threatspec/threatspec) | Declarative threat modeling for DevSecOps | ![Stars](https://img.shields.io/github/stars/threatspec/threatspec?style=for-the-badge) |
-| **pytm** | [GitHub](https://github.com/izar/pytm) | Python framework for threat modeling | ![Stars](https://img.shields.io/github/stars/izar/pytm?style=for-the-badge) |
-| **Threagile** | [GitHub](https://github.com/Threagile/threagile) | Agile threat modeling engine (Go) | ![Stars](https://img.shields.io/github/stars/Threagile/threagile?style=for-the-badge) |
-| **MAL-lang** | [Website](https://mal-lang.org/#what) | Language to model cyber threats | ![Stars](https://img.shields.io/github/stars/mal-lang/exampleLang?style=for-the-badge) |
-| **Microsoft TMT** | [Docs](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) | Threat modeling tool by Microsoft | ![Stars](https://img.shields.io/github/stars/microsoft/threat-modeling-templates?style=for-the-badge) |
-| **Talisman** | [GitHub](https://github.com/thoughtworks/talisman) | Prevents secrets from being committed | ![Stars](https://img.shields.io/github/stars/thoughtworks/talisman?style=for-the-badge) |
-| **SEDATED (OWASP)** | [GitHub](https://github.com/OWASP/SEDATED) | Sensitive data detection tool | ![Stars](https://img.shields.io/github/stars/OWASP/SEDATED?style=for-the-badge) |
-| **Sonarlint** | [GitHub](https://github.com/SonarSource/sonarlint-core) | IDE plugin for secure code linting | ![Stars](https://img.shields.io/github/stars/SonarSource/sonarlint-core?style=for-the-badge) |
-| **DevSkim** | [GitHub](https://github.com/microsoft/DevSkim) | IDE security analysis engine | ![Stars](https://img.shields.io/github/stars/microsoft/DevSkim?style=for-the-badge) |
-| **detect-secrets** | [GitHub](https://github.com/Yelp/detect-secrets) | Secret detection by Yelp | ![Stars](https://img.shields.io/github/stars/Yelp/detect-secrets?style=for-the-badge) |
-| **tflint** | [GitHub](https://github.com/terraform-linters/tflint) | Terraform linter with plugins | ![Stars](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge) |
-#  Secrets Management in DevSecOps
+|------|-----|-------------|:-----:|
+| **git-secrets** | [GitHub](https://github.com/awslabs/git-secrets) | Scans commits for hardcoded secrets using regex patterns. Blocks commits or pushes if secrets are detected. Ideal for enforcing secret hygiene early in the workflow. | ![Stars](https://img.shields.io/github/stars/awslabs/git-secrets?style=for-the-badge) |
+| **git-hound** | [GitHub](https://github.com/tillson/git-hound) | Searches git repositories (including history) for sensitive keywords and patterns. Helps prevent accidental exposure of API keys, passwords, and tokens. | ![Stars](https://img.shields.io/github/stars/tillson/git-hound?style=for-the-badge) |
+| **goSDL** | [GitHub](https://github.com/slackhq/goSDL) | Lightweight implementation of a Secure Development Lifecycle framework. Provides checklists and automation for secure coding practices. | ![Stars](https://img.shields.io/github/stars/slackhq/goSDL?style=for-the-badge) |
+| **ThreatPlaybook** | [GitHub](https://github.com/we45/ThreatPlaybook) | Enables security teams to define threat modeling, test cases, and security controls as code. Integrates with CI/CD pipelines. | ![Stars](https://img.shields.io/github/stars/we45/ThreatPlaybook?style=for-the-badge) |
+| **Threat Dragon** | [GitHub](https://github.com/OWASP/threat-dragon) | OWASP’s open-source tool for visual threat modeling. Allows designing data flow diagrams and identifying threats in a user-friendly interface. | ![Stars](https://img.shields.io/github/stars/OWASP/threat-dragon?style=for-the-badge) |
+| **threatspec** | [GitHub](https://github.com/threatspec/threatspec) | Infrastructure-as-code styled approach to threat modeling. Allows embedding threat definitions directly into source code comments. | ![Stars](https://img.shields.io/github/stars/threatspec/threatspec?style=for-the-badge) |
+| **pytm** | [GitHub](https://github.com/izar/pytm) | Python-based framework for programmatic threat modeling. Supports defining systems, data flows, and assets via code for automated threat analysis. | ![Stars](https://img.shields.io/github/stars/izar/pytm?style=for-the-badge) |
+| **Threagile** | [GitHub](https://github.com/Threagile/threagile) | YAML-based agile threat modeling engine written in Go. Generates risk reports and diagrams from lightweight models. | ![Stars](https://img.shields.io/github/stars/Threagile/threagile?style=for-the-badge) |
+| **MAL-lang** | [Website](https://mal-lang.org/#what) | Provides a modeling language for describing attack paths and threat scenarios. Used in academic and industry settings for formal threat modeling. | ![Stars](https://img.shields.io/github/stars/mal-lang/exampleLang?style=for-the-badge) |
+| **Microsoft TMT** | [Docs](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) | GUI tool developed by Microsoft for diagram-based threat modeling. Supports STRIDE methodology and integrates with Microsoft SDL. | ![Stars](https://img.shields.io/github/stars/microsoft/threat-modeling-templates?style=for-the-badge) |
+| **Talisman** | [GitHub](https://github.com/thoughtworks/talisman) | Hooks into `git pre-push` and `pre-commit` to detect and block sensitive files and secrets from entering the codebase. | ![Stars](https://img.shields.io/github/stars/thoughtworks/talisman?style=for-the-badge) |
+| **SEDATED (OWASP)** | [GitHub](https://github.com/OWASP/SEDATED) | OWASP’s tool for scanning sensitive data exposure in source code. Focuses on PII, secrets, and GDPR-relevant patterns. | ![Stars](https://img.shields.io/github/stars/OWASP/SEDATED?style=for-the-badge) |
+| **Sonarlint** | [GitHub](https://github.com/SonarSource/sonarlint-core) | IDE plugin for live static analysis. Detects security issues, bugs, and code smells in real-time as developers write code. | ![Stars](https://img.shields.io/github/stars/SonarSource/sonarlint-core?style=for-the-badge) |
+| **DevSkim** | [GitHub](https://github.com/microsoft/DevSkim) | IDE and CLI tool by Microsoft to analyze source code and flag insecure practices. Supports customizable rule sets. | ![Stars](https://img.shields.io/github/stars/microsoft/DevSkim?style=for-the-badge) |
+| **detect-secrets** | [GitHub](https://github.com/Yelp/detect-secrets) | Yelp’s extensible secret detection tool. Prevents secrets from entering the codebase by auditing commits using regex and entropy analysis. | ![Stars](https://img.shields.io/github/stars/Yelp/detect-secrets?style=for-the-badge) |
+| **tflint** | [GitHub](https://github.com/terraform-linters/tflint) | Linter for Terraform to detect issues and enforce best practices before infrastructure code is committed. Supports plugins for custom rules. | ![Stars](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge) |
+
+# Secrets Management in DevSecOps
 
 Secrets management is a foundational discipline within DevSecOps, focusing on the secure handling of sensitive data such as passwords, API keys, encryption keys, tokens, and certificates. These secrets are critical for communication between services, infrastructure authentication, and secure application behavior — especially within modern CI/CD pipelines and cloud-native environments.
 
 In DevSecOps, where automation and collaboration are paramount, the ability to **manage secrets securely, consistently, and at scale** becomes essential. Poor secrets management can lead to devastating security breaches, leaked credentials, unauthorized access, and non-compliance with industry regulations.
 
----
-
-##  Why Secrets Management is Crucial
+## Why Secrets Management is Crucial
 
 Modern software systems rely heavily on automated deployments, microservices, and distributed infrastructure. This creates numerous entry points and access needs across components, tools, and teams. Secrets — such as database credentials, cloud provider access keys, or signing certificates — are used extensively across:
 
@@ -266,9 +251,8 @@ Without secure handling, secrets are often:
 
 By implementing proper secrets management, DevSecOps teams can protect against these risks and ensure secrets are encrypted, rotated regularly, audited, and only accessible by authorized entities.
 
----
 
-##  Tools for Secrets Detection and Management
+## Tools for Secrets Detection and Management
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -285,9 +269,8 @@ By implementing proper secrets management, DevSecOps teams can protect against t
 | **Chef Vault** | [GitHub](https://github.com/chef/chef-vault) | Tool for securely encrypting and sharing data bags across Chef infrastructure. Integrates with Chef’s access control features. | ![Stars](https://img.shields.io/github/stars/chef/chef-vault?style=for-the-badge) |
 | **Ansible Vault** | [Docs](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html) | Encrypts variable files, YAML config, and secrets used within Ansible playbooks. Simple to use for secret sharing and version control. | ![Badge](https://img.shields.io/github/stars/ansible-community/ansible-vault?style=for-the-badge) |
 
----
 
-## ️ Best Practices for Secrets Management
+## ️Best Practices for Secrets Management
 
 - **Never hardcode secrets** in source code or CI/CD configs.
 - **Use environment variables** injected securely at runtime via orchestrators or vault tools.
@@ -297,7 +280,8 @@ By implementing proper secrets management, DevSecOps teams can protect against t
 - **Adopt GitOps-friendly tools** (e.g., SOPS, Sealed Secrets) when managing secrets in Git.
 - **Store secrets externally**, not in Dockerfiles, Kubernetes manifests, or `.env` files unless encrypted.
 
-#  Static Application Security Testing (SAST)
+
+# Static Application Security Testing (SAST)
 
 Static Application Security Testing (SAST) is a fundamental part of DevSecOps pipelines, enabling early detection of vulnerabilities by analyzing the source code, bytecode, or binaries **without executing the program**. Unlike DAST (Dynamic Application Security Testing), which simulates real-world attacks on running applications, SAST tools scan code to identify security flaws such as:
 
@@ -309,18 +293,16 @@ Static Application Security Testing (SAST) is a fundamental part of DevSecOps pi
 
 SAST tools are ideal for **"shift-left"** security — identifying vulnerabilities before the code is even compiled, and integrating these checks into IDEs or CI pipelines ensures fast feedback loops and secure-by-design coding practices.
 
----
 
-##  Why SAST Matters in DevSecOps
+## Why SAST Matters in DevSecOps
 
 - **Prevents security debt** by catching issues before code reaches production
 - **Automates code reviews** for security anti-patterns and risky behaviors
 - **Integrates seamlessly** into developer workflows (e.g., Git hooks, IDEs, CI/CD)
 - **Provides education**: highlights insecure patterns and recommends best practices
 
----
 
-##  SAST Tooling Landscape
+## SAST Tooling Landscape
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -335,9 +317,8 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 | **Safety** | [GitHub](https://github.com/pyupio/safety) | Checks Python dependencies (from `requirements.txt`) for known vulnerabilities using a vulnerability DB. | ![Stars](https://img.shields.io/github/stars/pyupio/safety?style=for-the-badge) |
 | **ESLint** | [Website](https://eslint.org/) | Widely used JavaScript/TypeScript linter. Security rules can be added via plugins like `eslint-plugin-security`. | – |
 
----
 
-## ️ Best Practices for Using SAST in DevSecOps
+## Best Practices for Using SAST in DevSecOps
 
 1. **Integrate into CI/CD Pipelines**  
    Run SAST tools automatically on pull requests and merges. Tools like `Semgrep`, `Bandit`, and `gosec` can be run as GitHub Actions, GitLab CI jobs, or Jenkins stages.
@@ -357,20 +338,19 @@ SAST tools are ideal for **"shift-left"** security — identifying vulnerabiliti
 6. **Train Developers with Contextual Feedback**  
    Use SAST reports to teach secure coding practices. Many tools offer links to CWE/OWASP references and remediation steps.
 
----
 
-## ️ Licensing Note for Semgrep Users
+## Licensing Note for Semgrep Users
 
 While the **Semgrep CLI and core ruleset** are open source and free to use, some advanced or commercial rules require a license. You can browse available rules and their licenses here: [https://semgrep.dev/r](https://semgrep.dev/r)
 
----
 
-##  Further Reading
+## Further Reading
 
 - [OWASP Source Code Analysis Tools](https://owasp.org/www-community/Source_Code_Analysis_Tools)
 - [Scan Source Code using SonarQube (Medium Guide)](https://medium.com/nycdev/scan-your-source-code-for-vulnerabilities-using-static-application-security-testing-sast-with-5f8ee1fdf9aa)
 - [GitHub Code Scanning Blog Post](https://github.blog/2020-10-05-announcing-third-party-code-scanning-tools-static-analysis-and-developer-security-training/)
-#  Dynamic Application Security Testing (DAST)
+
+# Dynamic Application Security Testing (DAST)
 
 Dynamic Application Security Testing (DAST) is a black-box testing technique that analyzes running applications by simulating real-world attacks. Unlike SAST, which inspects source code without execution, DAST interacts with live instances of the application (typically through HTTP) to discover vulnerabilities like:
 
@@ -383,9 +363,8 @@ Dynamic Application Security Testing (DAST) is a black-box testing technique tha
 
 DAST tools are ideal for identifying vulnerabilities that arise from configuration issues, runtime behavior, or security flaws that only become apparent during execution.
 
----
 
-##  Why DAST is Critical
+## Why DAST is Critical
 
 - **Covers runtime vulnerabilities** that static tools may miss
 - **Simulates real attacker behavior** in QA/staging/production environments
@@ -393,9 +372,7 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 - **Detects misconfigurations** such as open directories, missing headers, or dangerous endpoints
 - **Complements SAST/SCA** for full-stack security coverage
 
----
-
-##  Common DAST Tools
+## Common DAST Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -407,9 +384,8 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 | **Nikto** | [GitHub](https://github.com/sullo/nikto) | Web server vulnerability scanner that detects outdated components, dangerous files, and security headers. | ![Nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) |
 | **Skipfish** | [Archived](https://code.google.com/archive/p/skipfish/) | Fast web app security recon tool from Google. Useful for brute-force fuzzing and link crawling. | ![Skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) |
 
----
 
-## ️ Best Practices for DAST in DevSecOps
+## ️Best Practices for DAST in DevSecOps
 
 1. **Run in staging or test environments**  
    Since DAST tools actively probe endpoints, it’s best to scan non-production instances unless the tool is explicitly configured to be safe.
@@ -429,16 +405,17 @@ DAST tools are ideal for identifying vulnerabilities that arise from configurati
 6. **Baseline and suppress false positives**  
    DAST tools often produce noise — invest time in tuning your rules and maintaining suppression lists for known-safe behavior.
 
----
 
-##  Further Reading
+
+## Further Reading
 
 - [ZAP + GitHub Actions Tutorial](https://www.zaproxy.org/blog/2020-05-15-dynamic-application-security-testing-with-zap-and-github-actions/)
 - [GitLab DAST Integration](https://docs.gitlab.com/ee/user/application_security/dast/)
 - [Using Nuclei in CI (GitHub Action)](https://github.com/secopslab/nuclei-action)
 - [ZAPCon 2021 - Test Automation & DSLs for DAST](https://youtu.be/jimW-R6_F4U)
 - [Penetration Testing at DevSecOps Speed](https://securityboulevard.com/2019/04/penetration-testing-at-devsecops-speed/)
-#  Dependency and SBOM Management
+
+# Dependency and SBOM Management
 
 Modern applications rely heavily on third-party libraries, frameworks, and open-source components. While these speed up development, they also introduce risks from outdated, vulnerable, or even malicious packages — often referred to as **supply chain risks**.
 
@@ -451,18 +428,16 @@ Dependency management in DevSecOps includes:
 - Detecting tampering or dependency confusion attacks
 - Ensuring compliance with open-source licenses
 
----
 
-##  Why It's Important
+## Why It's Important
 
 - **Visibility**: Know exactly what your application is built with — including all third-party code.
 - **Security**: Identify vulnerable components before they are exploited.
 - **Compliance**: Demonstrate awareness of licensing and security standards (e.g., NIST 800-218 / SSDF).
 - **Traceability**: SBOMs help in incident response, legal inquiries, and operational auditing.
 
----
 
-##  Dependency Management & SBOM Tools
+## Dependency Management & SBOM Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -484,9 +459,8 @@ Dependency management in DevSecOps includes:
 | **Security Scorecards** | [Website](https://securityscorecards.dev) | Scorecard of open-source repos using metrics like branch protection, dependency update automation, and security posture. | ![Stars](https://img.shields.io/github/stars/ossf/scorecard?style=for-the-badge) |
 | **Syft** | [GitHub](https://github.com/anchore/syft) | Generates SBOMs for container images, filesystems, and codebases. Outputs CycloneDX, SPDX, etc. | ![Stars](https://img.shields.io/github/stars/anchore/syft?style=for-the-badge) |
 
----
 
-## ️ Best Practices for Dependency & SBOM Security
+## ️Best Practices for Dependency & SBOM Security
 
 1. **Always scan third-party libraries** as part of your CI/CD process using SCA tools like `DependencyCheck`, `Snyk`, or `Retire.js`.
 
@@ -502,15 +476,15 @@ Dependency management in DevSecOps includes:
 
 7. **Include license checks** in your dependency scans to maintain legal compliance.
 
----
 
-##  Further Reading
+## Further Reading
 
 - [CycloneDX Specification](https://cyclonedx.org/specification/overview/)
 - [SPDX – The Software Package Data Exchange](https://spdx.dev)
 - [OpenSSF Scorecards](https://securityscorecards.dev/)
 - [NIST Guidelines on SBOMs](https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-security-supply-chains-software-1)
-#  Supply Chain Security in DevSecOps
+
+# Supply Chain Security in DevSecOps
 
 Software supply chain security focuses on ensuring the **integrity, authenticity, and trustworthiness** of the components, tools, and workflows used to build and deploy software. This includes:
 
@@ -523,9 +497,8 @@ Software supply chain security focuses on ensuring the **integrity, authenticity
 
 Recent attacks (SolarWinds, CodeCov, dependency confusion) have demonstrated how attackers target the software supply chain rather than just the application itself.
 
----
 
-##  Why Supply Chain Security Matters
+## Why Supply Chain Security Matters
 
 - Modern software is **assembled, not written from scratch** — much of the code is external
 - **CI/CD pipelines are privileged environments** and attractive targets for attackers
@@ -534,9 +507,8 @@ Recent attacks (SolarWinds, CodeCov, dependency confusion) have demonstrated how
 
 Supply chain security is not just about protecting your software — it's about protecting your users, customers, and everyone who depends on what you ship.
 
----
 
-##  Key Concepts
+## Key Concepts
 
 | Concept | Description |
 |--------|-------------|
@@ -545,9 +517,8 @@ Supply chain security is not just about protecting your software — it's about 
 | **Provenance** | The complete trace of a software artifact’s origin, including who built it, how, and with what tools |
 | **Tamper Evidence** | Mechanisms (e.g., signatures, hashes) that reveal if any component has been modified |
 
----
 
-##  Tools for Supply Chain Security
+## Tools for Supply Chain Security
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -557,9 +528,8 @@ Supply chain security is not just about protecting your software — it's about 
 | **kritis** | [GitHub](https://github.com/grafeas/kritis) | Policy engine for enforcing image signatures and metadata in Kubernetes clusters | ![Stars](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge) |
 | **Ratify** | [GitHub](https://github.com/deislabs/ratify) | Extensible framework for verifying container artifact signatures, attestations, and policies | ![Stars](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge) |
 
----
 
-## ️ Best Practices
+## ️Best Practices
 
 1. **Generate SBOMs at build time**  
    Use tools like `Syft` or `cdxgen` to produce SBOMs and include them in your build artifacts.
@@ -582,15 +552,15 @@ Supply chain security is not just about protecting your software — it's about 
 7. **Continuously monitor dependencies**  
    Combine SCA + SBOM ingestion (e.g., via `DependencyTrack`) to detect downstream impact from known CVEs.
 
----
 
-##  Further Reading
+## Further Reading
 
 - [SLSA Levels (Official Site)](https://slsa.dev/spec/v1.0/)
 - [in-toto Project Overview](https://in-toto.io/)
 - [OpenSSF Supply Chain Security Whitepaper](https://openssf.org/blog/2023/05/31/openssf-supply-chain-integrity-working-group-provides-security-guidance-practical-frameworks-and-tools/)
 - [Mitigating Supply Chain Attacks with Attestation (Tekton Blog)](https://www.ozone.one/supply-chain-security-with-tekton-chains)
-# ️ CI/CD Security
+
+# CI/CD Security
 
 In DevSecOps, securing the Continuous Integration and Continuous Deployment (CI/CD) pipeline is crucial. While CI/CD accelerates software delivery, it also introduces new **attack surfaces** such as:
 
@@ -603,20 +573,20 @@ In DevSecOps, securing the Continuous Integration and Continuous Deployment (CI/
 
 An insecure CI/CD setup can result in **complete compromise of your source code, cloud credentials, production systems**, or supply chain integrity.
 
----
 
-##  Why Securing CI/CD Matters
+
+## Why Securing CI/CD Matters
 
 - CI/CD systems often hold **the keys to the kingdom** (deploy credentials, secrets, access tokens).
 - They run with high privileges and can modify or deploy infrastructure and application code.
 - Attackers actively target build pipelines (e.g., SolarWinds, CodeCov, CircleCI breaches).
 - Ensuring pipeline security is essential to the trustworthiness of software supply chains.
 
----
 
-##  Tools for CI/CD Hardening and Monitoring
 
-###  GitHub Actions Security
+## Tools for CI/CD Hardening and Monitoring
+
+### GitHub Actions Security
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -624,7 +594,7 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 | **GitHub Actions Security Best Practices (Salesforce)** | [Blog](https://engineering.salesforce.com/github-actions-security-best-practices-b8f9df5c75f5) | Practical strategies from Salesforce for securing workflows. | – |
 | **GitGuardian GitHub Actions Cheat Sheet** | [Blog](https://blog.gitguardian.com/github-actions-security-cheat-sheet/) | A summarized, visual checklist of secure actions usage, tokens, and more. | – |
 
-###  Jenkins Security
+### Jenkins Security
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -632,9 +602,8 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 | **SANS Whitepaper – Securing Jenkins CI Systems** | [PDF](https://www.sans.org/white-papers/36872/) | A thorough breakdown of Jenkins security threats and defense mechanisms. | – |
 | **chef-jenkins-hardening** | [GitHub](https://github.com/dev-sec/chef-jenkins-hardening) | (Deprecated) Infrastructure-as-code module to apply security best practices in Jenkins deployments. | ![Stars](https://img.shields.io/github/stars/dev-sec/chef-jenkins-hardening?style=for-the-badge) |
 
----
 
-## ️ Security Considerations for CI/CD Systems
+## Security Considerations for CI/CD Systems
 
 | Aspect | Best Practices |
 |--------|----------------|
@@ -647,24 +616,23 @@ An insecure CI/CD setup can result in **complete compromise of your source code,
 | **Branch Protections** | Enforce signed commits, status checks, and PR reviews before deployments |
 | **Secrets Scanning** | Integrate tools like `detect-secrets`, `gitleaks`, or `ggshield` directly into pipelines |
 
----
 
-##  Integrating Security into CI/CD Workflows
+## Integrating Security into CI/CD Workflows
 
 - **Before Commit**: Use `pre-commit`, `detect-secrets`, `talisman`, `semgrep` locally
 - **On Push**: Trigger full SAST/DAST scans, SBOM generation, dependency checks
 - **Before Deploy**: Validate secrets, enforce policy-as-code (e.g., OPA), verify image signatures
 - **Post Deploy**: Monitor system logs, validate health, send alerts on anomalies
 
----
 
-##  Further Reading
+## Further Reading
 
 - [GitHub Actions Hardening Guide (GitHub Docs)](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
 - [GitHub Actions Security Cheat Sheet (GitGuardian)](https://blog.gitguardian.com/github-actions-security-cheat-sheet/)
 - [Jenkins Security Best Practices](https://www.jenkins.io/doc/book/security/)
 - [SANS Whitepaper – Securing Jenkins CI Systems](https://www.sans.org/white-papers/36872/)
-#  Container Security in DevSecOps
+
+# Container Security in DevSecOps
 
 Containers, especially Docker-based, are essential to modern DevOps workflows — but they also introduce unique security risks. Misconfigured Dockerfiles, vulnerable base images, overly permissive privileges, or unscanned third-party layers can lead to significant breaches in production environments.
 
@@ -675,9 +643,8 @@ In DevSecOps, container security spans the full lifecycle:
 - Runtime protection (e.g., syscall monitoring)
 - Compliance with hardening benchmarks (e.g., CIS)
 
----
 
-##  Why Container Security Is Critical
+## Why Container Security Is Critical
 
 - Containers often **bundle dependencies** and OS libraries — increasing attack surface
 - **Vulnerabilities in base images** affect all downstream builds
@@ -685,9 +652,8 @@ In DevSecOps, container security spans the full lifecycle:
 - **Default Docker configurations** (e.g., `--privileged`, open ports) are often insecure
 - Runtime security issues like **container escape** or **lateral movement** must be mitigated
 
----
 
-##  Container Security Tools
+## Container Security Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -702,9 +668,8 @@ In DevSecOps, container security spans the full lifecycle:
 | **Cosign** | [GitHub](https://github.com/sigstore/cosign) | Container signing and verification tool as part of the Sigstore project. Works with OCI registries. | ![Stars](https://img.shields.io/github/stars/sigstore/cosign?style=for-the-badge) |
 | **watchtower** | [GitHub](https://github.com/containrrr/watchtower) | Automatically updates running containers when new images are pushed to the registry. Useful for patching. | ![Stars](https://img.shields.io/github/stars/containrrr/watchtower?style=for-the-badge) |
 
----
 
-## ️ Best Practices for Container Security
+## Best Practices for Container Security
 
 1. **Scan base images** early in your pipeline with Trivy or Grype.
 2. **Use minimal, hardened base images** like `distroless` or `alpine`.
@@ -715,15 +680,14 @@ In DevSecOps, container security spans the full lifecycle:
 7. **Use private registries** (e.g., Harbor) with RBAC, scanning, and image expiration policies.
 8. **Automate updates** for patched images using tools like Watchtower or Renovate with tag filtering.
 
----
-
-##  Further Reading
+## Further Reading
 
 - [Docker Security Best Practices (Docker Docs)](https://docs.docker.com/engine/security/security/)
 - [Falco Rules and Use Cases](https://falco.org/docs/rules/)
 - [CIS Docker Benchmark](https://www.cisecurity.org/benchmark/docker)
 
-# ️ Kubernetes Security in DevSecOps
+
+# ️Kubernetes Security in DevSecOps
 
 Kubernetes has become the de facto standard for container orchestration — but with great power comes significant complexity. A misconfigured cluster, insecure workload, or overly permissive RBAC role can expose entire environments.
 
@@ -735,9 +699,8 @@ Kubernetes security involves multiple layers:
 - Monitoring runtime behavior and network traffic
 - Detecting risky permissions and attack vectors
 
----
 
-##  Why Kubernetes Security Matters
+## Why Kubernetes Security Matters
 
 - Kubernetes is often deployed in **multi-tenant, production-grade** environments
 - Poorly secured clusters can be **lateral movement playgrounds**
@@ -745,9 +708,8 @@ Kubernetes security involves multiple layers:
 - Network policies, RBAC, and admission control are often **misunderstood or underused**
 - Kubernetes expands the attack surface — APIs, controllers, secrets, etc.
 
----
 
-##  Kubernetes Security Tools
+## Kubernetes Security Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -771,9 +733,8 @@ Kubernetes security involves multiple layers:
 | **Badrobot** | [GitHub](https://github.com/controlplaneio/badrobot) | Audits Kubernetes Operators for risky access and behavior | ![Stars](https://img.shields.io/github/stars/controlplaneio/badrobot) |
 | **Istio** | [Website](https://istio.io) | Service mesh with built-in mutual TLS, RBAC, and telemetry. Useful for network-level Kubernetes security. | ![Stars](https://img.shields.io/github/stars/istio/istio) |
 
----
 
-## ️ Best Practices for Kubernetes Security
+## ️Best Practices for Kubernetes Security
 
 1. **Scan manifests before applying** using tools like `kube-score`, `kubesec`, `kube-linter`.
 2. **Audit RBAC roles** frequently with tools like `KubiScan` or `Krane`.
@@ -784,23 +745,22 @@ Kubernetes security involves multiple layers:
 7. **Monitor runtime behavior** using `Falco`, `Inspektor Gadget`, or `Mizu`.
 8. **Integrate security findings into CRDs** via `Starboard` for native visibility.
 
----
 
 
-##  Further Reading
+## Further Reading
 
 - [NSA/CISA Kubernetes Hardening Guide](https://media.defense.gov/2022/Aug/29/2003066362/-1/-1/0/CTR_KUBERNETES_HARDENING_GUIDANCE_1.2_20220829.PDF)
 - [MITRE ATT&CK for Containers](https://attack.mitre.org/matrices/enterprise/containers/)
 - [Kubernetes CIS Benchmark](https://www.cisecurity.org/benchmark/kubernetes)
-# ️ Cloud Security in DevSecOps
+
+# Cloud Security in DevSecOps
 
 In DevSecOps, securing cloud infrastructure is just as critical as securing application code. With the rise of Infrastructure as Code and automated CI/CD, cloud environments can change rapidly — and security needs to keep up.
 
 Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and untagged resources are among the **most common sources of cloud breaches**. The tools below help identify, remediate, and enforce secure cloud posture across AWS, GCP, and Azure.
 
----
 
-##  Multi-Cloud Security Tools
+## Multi-Cloud Security Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -809,7 +769,6 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 | **CloudCustodian** | [GitHub](https://github.com/cloud-custodian/cloud-custodian/) | Policy-as-code engine to manage cloud governance rules across providers | ![Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=for-the-badge) |
 | **CloudGraph** | [GitHub](https://github.com/cloudgraphdev/cli) | GraphQL-based security visualization engine for AWS, Azure, GCP, and K8s | ![Stars](https://img.shields.io/github/stars/cloudgraphdev/cli?style=for-the-badge) |
 
----
 
 ## AWS Security Tools
 
@@ -833,17 +792,15 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 | **Yor** | [GitHub](https://github.com/bridgecrewio/yor) | Adds tags to IaC (Terraform, CloudFormation) for traceability and ownership | ![Stars](https://img.shields.io/github/stars/bridgecrewio/yor?style=for-the-badge) |
 | **aws-firewall-factory** | [GitHub](https://github.com/globaldatanet/aws-firewall-factory) | Automates deployment and management of AWS WAF across accounts | ![Stars](https://img.shields.io/github/stars/globaldatanet/aws-firewall-factory?style=for-the-badge) |
 
----
 
-##  GCP-Specific Tool
+## GCP-Specific Tool
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
 | **Forseti Security** | [GitHub](https://github.com/forseti-security/forseti-security) | Suite of tools for auditing and securing Google Cloud Platform environments | ![Stars](https://img.shields.io/github/stars/forseti-security/forseti-security?style=for-the-badge) |
 
----
 
-## ️ Best Practices for Cloud Security
+## ️Best Practices for Cloud Security
 
 1. Continuously scan for **resource misconfigurations** and open attack surfaces
 2. Enforce **least privilege IAM policies** with tools like `policy_sentry`, `AirIAM`
@@ -852,15 +809,15 @@ Misconfigured services, overly permissive IAM roles, exposed S3 buckets, and unt
 5. Enable **cross-account and multi-region visibility**
 6. Integrate **compliance scans** into CI/CD and infrastructure provisioning steps
 
----
 
-##  Further Reading
+## Further Reading
 
 - [AWS Security Best Practices](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
 - [GCP Security Foundations Guide](https://cloud.google.com/architecture/security-foundations)
 - [Cloud Custodian Use Cases](https://cloudcustodian.io/docs/)
 
-#  Infrastructure as Code (IaC) Security
+
+# Infrastructure as Code (IaC) Security
 
 Infrastructure as Code (IaC) allows teams to automate cloud infrastructure through declarative configuration files (e.g., Terraform, CloudFormation, Kubernetes YAMLs). While this improves efficiency and reproducibility, it also introduces **risk**:
 
@@ -872,18 +829,16 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 
 **IaC Security tools help shift security left** by scanning code before it’s deployed.
 
----
 
-##  Why IaC Security Matters
+## Why IaC Security Matters
 
 - IaC defines **production infrastructure** — one typo can lead to breaches
 - Cloud-native breaches often stem from misconfiguration, not software bugs
 - IaC files are version-controlled — scanning them fits naturally into CI/CD
 - Automated scanning ensures consistent policy enforcement across environments
 
----
 
-##  Tools for IaC Security
+## Tools for IaC Security
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -896,9 +851,8 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 | **tflint** | [GitHub](https://github.com/terraform-linters/tflint) | Terraform linter with plugins for security and style | ![Stars](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge) |
 | **Sysdig IaC Scanner (GitHub Action)** | [GitHub](https://github.com/sysdiglabs/cloud-iac-scanner-action) | GitHub Action that scans IaC repositories and comments on PRs | ![Stars](https://img.shields.io/github/stars/sysdiglabs/cloud-iac-scanner-action?style=for-the-badge) |
 
----
 
-## ️ Best Practices for IaC Security
+## ️Best Practices for IaC Security
 
 1. **Integrate IaC scanning into CI/CD** (pre-commit hooks, GitHub Actions, GitLab CI, etc.)
 2. **Define organizational policies as code** (e.g., block exposed ports or wildcard IAM roles)
@@ -908,15 +862,15 @@ Infrastructure as Code (IaC) allows teams to automate cloud infrastructure throu
 6. **Scan all IaC types** — including Terraform, Helm charts, Dockerfiles, K8s YAML, and CDK
 7. **Standardize baseline templates** to prevent repeated mistakes across teams
 
----
 
-##  Further Reading
+## Further Reading
 
 - [IaC Security Maturity Model (Bridgecrew)](https://github.com/joelparkerhenderson/maturity-models/blob/main/examples/infrastructure-as-code/infrastructure-as-code-maturity-model-by-stafford/index.md)
 - [OpenSSF Releases Source Code Management Best Practices Guide](https://openssf.org/blog/2023/09/14/openssf-releases-source-code-management-best-practices-guide/)
 - [AWS CloudFormation Security Guide](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/security-iam.html)
 - [Building an IaC security and governance program step-by-step](https://thechief.io/c/bridgecrew/building-iac-security-and-governance-program-step-step/)
-#  Policy as Code (PaC) in DevSecOps
+
+# Policy as Code (PaC) in DevSecOps
 
 Policy as Code (PaC) is the practice of defining security, compliance, and infrastructure rules in a programmable format. Rather than relying on manual reviews or documentation, policies are **version-controlled, testable, and enforced automatically**.
 
@@ -928,9 +882,8 @@ PaC allows organizations to enforce:
 
 By treating policies like software, DevSecOps teams gain consistency, visibility, and scalability across cloud and infrastructure environments.
 
----
 
-##  Why Policy as Code?
+## Why Policy as Code?
 
 - **Automated enforcement** reduces human error
 - Policies can be tested, reviewed, and versioned like code
@@ -938,9 +891,8 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 - Enables **continuous governance** in Kubernetes and cloud
 - Encourages **self-service infrastructure with guardrails**
 
----
 
-##  Tools for Policy as Code
+## Tools for Policy as Code
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -951,9 +903,8 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 | **InSpec** | [GitHub](https://github.com/inspec/inspec) | Security and compliance testing framework by Chef (now Progress) | ![Stars](https://img.shields.io/github/stars/inspec/inspec?style=for-the-badge) |
 | **cnspec** | [GitHub](https://github.com/mondoohq/cnspec) | Cloud-native security engine to assess infrastructure, APIs, IaC, and SaaS environments | ![Stars](https://img.shields.io/github/stars/mondoohq/cnspec?style=for-the-badge) |
 
----
 
-## ️ Best Practices
+## ️Best Practices
 
 1. **Write policies in code, not documents** — integrate into CI/CD pipelines
 2. **Use fail-closed patterns** — block insecure resources unless explicitly whitelisted
@@ -963,24 +914,23 @@ By treating policies like software, DevSecOps teams gain consistency, visibility
 6. **Promote policy-as-self-service** — let devs test and validate policies locally
 7. **Use different engines where appropriate** (OPA for APIs, Kyverno for K8s, cf-guard for CloudFormation)
 
----
 
-
-##  Further Reading
+## Further Reading
 
 - [OPA Documentation](https://www.openpolicyagent.org/docs/latest/)
 - [Kyverno Policy Library](https://kyverno.io/policies/)
 - [AWS CloudFormation Guard Examples](https://github.com/aws-cloudformation/cloudformation-guard/tree/main/guard-examples)
 - [Policy as Code with InSpec](https://learn.chef.io/modules/inspec-basics)
-#  Chaos Engineering in DevSecOps
+
+# Chaos Engineering in DevSecOps
 
 Chaos Engineering is the discipline of experimenting on systems in production-like environments to build **confidence in their resilience**. The goal is to proactively identify weaknesses before they become incidents.
 
 While traditional security practices focus on **preventing attacks**, Chaos Engineering ensures your systems can **recover from failures and attacks** gracefully — including downtime, latency spikes, DNS misroutes, resource exhaustion, and compromised containers.
 
----
 
-##  Why Chaos Engineering for DevSecOps?
+
+## Why Chaos Engineering for DevSecOps?
 
 - Proves the reliability of **redundancy, failover, and detection** mechanisms
 - Simulates real-world disruptions — including security incidents (e.g., node isolation, pod compromise)
@@ -988,9 +938,9 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 - Identifies **hidden dependencies** and brittle configurations
 - Strengthens CI/CD pipelines by **integrating chaos as a test phase**
 
----
 
-##  Chaos Engineering Tools
+
+## Chaos Engineering Tools
 
 | Name | URL | Description | Stars |
 |------|-----|-------------|:-----:|
@@ -1005,9 +955,9 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 | **AWS FIS Samples** | [GitHub](https://github.com/aws-samples/aws-fault-injection-simulator-samples) | Fault Injection Simulator templates for AWS workloads (e.g., EC2, ECS, RDS chaos) | ![Stars](https://img.shields.io/github/stars/aws-samples/aws-fault-injection-simulator-samples?style=for-the-badge) |
 | **CloudNuke** | [GitHub](https://github.com/gruntwork-io/cloud-nuke) | CLI tool to destroy all cloud resources in a test environment — extreme chaos testing | ![Stars](https://img.shields.io/github/stars/gruntwork-io/cloud-nuke?style=for-the-badge) |
 
----
 
-## ️ Best Practices for Chaos Engineering
+
+## Best Practices for Chaos Engineering
 
 1. **Run chaos in staging first**, but strive for production readiness
 2. **Monitor during experiments** — ensure metrics, alerts, and dashboards are informative
@@ -1016,14 +966,15 @@ While traditional security practices focus on **preventing attacks**, Chaos Engi
 5. **Automate in CI/CD pipelines** — test resilience per commit or release
 6. **Chaos ≠ Randomness** — the goal is controlled failure, not unpredictability
 
----
 
-##  Further Reading
+
+## Further Reading
 
 - [Principles of Chaos Engineering](https://principlesofchaos.org/)
 - [Litmus Chaos Documentation](https://docs.litmuschaos.io/)
 - [Gremlin Free Resources](https://www.gremlin.com/resources/)
-#  Monitoring & Observability in DevSecOps
+
+# Monitoring and Observability in DevSecOps
 
 Monitoring plays a critical role in DevSecOps by providing visibility into systems, workloads, and pipelines — allowing teams to **detect anomalies, enforce policies, and respond to incidents in real time**.
 
@@ -1035,7 +986,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 - Alerting on policy violations or suspicious behavior
 - Forensics and post-incident analysis
 
----
 
 ##  Why Monitoring Matters in DevSecOps
 
@@ -1044,7 +994,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 - Supports compliance requirements via logging and alerting
 - Provides **forensic data** for incident response and auditing
 
----
 
 ##  Monitoring & Security Observability Tools
 
@@ -1059,7 +1008,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 | **Zabbix** | [GitHub](https://github.com/zabbix/zabbix) | Infrastructure monitoring solution with flexible alerting and audit support | ![Stars](https://img.shields.io/github/stars/zabbix/zabbix?style=for-the-badge) |
 | **Wazuh** | [GitHub](https://github.com/wazuh/wazuh) | Security-focused monitoring platform built on OSSEC for host intrusion detection, file integrity, log analysis | ![Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=for-the-badge) |
 
----
 
 ##  Common Security Metrics to Monitor
 
@@ -1073,7 +1021,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 | **Secrets Access** | Access to vault, environment variable changes, AWS token usage |
 | **File Integrity** | Changes in binaries, unexpected writes in /etc, log tampering |
 
----
 
 ## ️ Best Practices
 
@@ -1085,7 +1032,6 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 6. **Tag events with metadata** (commit ID, container hash, user) for forensic clarity.
 7. **Store logs securely and immutably**, especially for compliance environments.
 
----
 
 
 ##  Further Reading
@@ -1094,8 +1040,10 @@ While traditional DevOps observability tools focus on performance, DevSecOps exp
 - [Falco Rules Examples](https://falco.org/docs/rules/)
 - [ELK Stack for Security Analytics](https://www.elastic.co/siem)
 - [Wazuh Use Cases](https://documentation.wazuh.com/current/getting-started/use-cases/index.html)
+
 # Resources
-#  DevSecOps Books
+
+# DevSecOps Books
 
 DevSecOps is a multidisciplinary field that spans development, operations, and security. The following books cover key areas such as secure software delivery, DevOps transformation, container security, and security automation.
 
@@ -1107,50 +1055,44 @@ These resources can help you:
 - Shift security left in the SDLC
 - Foster a collaborative DevSecOps culture
 
----
 
-##  Foundational Reads
+## Foundational Reads
 
-###  Securing DevOps
+### Securing DevOps
 - **Link**: [securing-devops.com/book](https://securing-devops.com/book)
 - **Author**: Julien Vehent
 - **Description**: A hands-on guide to integrating security into modern DevOps practices. It covers logging, threat modeling, secrets management, and secure delivery.
 
-###  DevOpsSec: Securing Software through Continuous Delivery
+### DevOpsSec: Securing Software through Continuous Delivery
 - **Link**: [O'Reilly Free Edition](http://www.oreilly.com/webops-perf/free/devopssec.csp)
 - **Authors**: Jim Bird
 - **Description**: Discusses how to embed security into fast-moving DevOps environments through automation, collaboration, and shared responsibility.
 
----
 
-##  Container & Cloud Security
+## Container & Cloud Security
 
-###  Docker Security: Quick Reference
+### Docker Security: Quick Reference
 - **Link**: [binarymist.io](https://binarymist.io/publication/docker-security/)
 - **Author**: Adrian Mouat
 - **Description**: Covers security considerations and hardening techniques specific to Docker and containerized workloads.
 
----
+## ‍Developer-Centric Security
 
-## ‍ Developer-Centric Security
-
-###  Holistic Info-Sec for Web Developers
+### Holistic Info-Sec for Web Developers
 - **Link**: [Leanpub](https://leanpub.com/b/holisticinfosecforwebdevelopers)
 - **Author**: Michal Špaček
 - **Description**: A security guide for developers, covering secure design patterns, common mistakes, and modern best practices.
 
----
 
-##  DevOps Culture & Transformation
+## DevOps Culture & Transformation
 
-###  The DevOps Handbook (Section VI)
+### The DevOps Handbook (Section VI)
 - **Link**: [O’Reilly](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 - **Authors**: Gene Kim, Jez Humble, Patrick Debois, John Willis
 - **Description**: Covers the DevOps transformation journey, with a dedicated section on security integration within high-performance organizations.
 
----
 
-##  Suggested Reading Paths
+## Suggested Reading Paths
 
 If you're new to DevSecOps:
 - Start with **Securing DevOps** and **DevOpsSec** for practical and cultural grounding.
@@ -1161,9 +1103,9 @@ If you're focused on containers and cloud:
 If you're a developer looking to write secure code:
 - Dive into **Holistic Info-Sec for Web Developers**.
 
----
 
-#  DevSecOps Labs & Hands-on Platforms
+
+# DevSecOps Labs and Hands-on Platforms
 
 DevSecOps is best learned through practice. These labs and training platforms allow you to build, break, and secure applications and infrastructure in simulated or real environments.
 
@@ -1176,61 +1118,57 @@ They cover key areas such as:
 - Container and cloud security
 - Infrastructure as Code testing
 
----
 
-## ‍ General DevSecOps Training
+## ‍General DevSecOps Training
 
-###  DevSecOps Bootcamp
+### DevSecOps Bootcamp
 - **Link**: [github.com/devsecops/bootcamp](https://github.com/devsecops/bootcamp)
 - A community-driven, hands-on curriculum covering the full DevSecOps lifecycle, from build to monitor.
 
-###  Exercism
+### Exercism
 - **Link**: [exercism.org](https://exercism.org/)
 - Offers coding exercises in 60+ languages. Useful for developers to practice secure coding fundamentals.
 
-###  InfosecLabs
+### InfosecLabs
 - **Link**: [infoseclabs.net](http://www.infoseclabs.net)
 - A lab environment providing practical scenarios in offensive and defensive security.
 
----
 
-##  Security-Specific Labs
+## Security-Specific Labs
 
-###  Infrastructure Monitoring Workshop
+### Infrastructure Monitoring Workshop
 - **Link**: [GitHub - DEFCON24 Infra Monitoring](https://github.com/appsecco/defcon24-infra-monitoring-workshop)
 - Learn how to monitor cloud infrastructure from a security perspective using open-source tools.
 
-###  PentesterLab
+### PentesterLab
 - **Link**: [pentesterlab.com](https://pentesterlab.com/exercises/)
 - Offers guided exercises in web application security, including real-world vulnerabilities and exploit practice.
 
-###  VulnHub
+### VulnHub
 - **Link**: [vulnhub.com](https://www.vulnhub.com/)
 - Download and run vulnerable virtual machines to simulate attacks, exploits, and secure configurations.
 
----
 
-##  Cloud & CI/CD Focused Platforms
+## Cloud & CI/CD Focused Platforms
 
-### ️ Katacoda (archived)
+### ️Katacoda (archived)
 - **Archived**: Now redirects to O'Reilly, but existing tutorials can be accessed via GitHub forks.
 - Interactive browser-based terminals for cloud-native and DevOps tooling (e.g., Docker, Kubernetes, Jenkins).
 
-###  Play with Docker / Kubernetes
+### Play with Docker / Kubernetes
 - [Play with Docker](https://labs.play-with-docker.com/)
 - [Play with K8s](https://labs.play-with-k8s.com/)
 - Spin up temporary lab environments to test Docker and Kubernetes security without installing anything locally.
 
 
-#  Vulnerable Applications for DevSecOps Practice
+
+# Vulnerable Applications for DevSecOps Practice
 
 Vulnerable applications are intentionally insecure systems built for learning. They’re essential for DevSecOps teams to test scanners, perform code analysis, validate threat models, and train developers and security engineers.
 
 These apps simulate common web, cloud, mobile, and serverless vulnerabilities — including the OWASP Top 10.
 
----
-
-##  Web Applications
+## Web Applications
 
 | Name | Stack | Link | Description |
 |------|-------|------|-------------|
@@ -1243,26 +1181,23 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities �
 | **NodeGoat** | Node.js | [GitHub](https://github.com/owasp/nodegoat) | Teaches security through insecure Node.js-based app — includes source and walkthroughs. |
 | **OWASP WebGoatPHP** | PHP | [GitHub](https://github.com/OWASP/OWASPWebGoatPHP) | PHP version of WebGoat, focused on insecure PHP practices. |
 
----
 
-## ️ Serverless / Cloud
+## ️Serverless / Cloud
 
 | Name | Stack | Link | Description |
 |------|-------|------|-------------|
 | **OWASP DVSA (Damn Vulnerable Serverless App)** | AWS Lambda | [GitHub](https://github.com/owasp/dvsa) | Insecure serverless functions to demonstrate attacks like insecure IAM, SSRF, broken auth. |
 | **LambHack** | AWS Lambda | [GitHub](https://github.com/wickett/lambhack) | Serverless CTF-style lab to explore the unique risks in AWS Lambda apps. |
 
----
 
-##  OS & Infrastructure
+## OS & Infrastructure
 
 | Name | Stack | Link | Description |
 |------|-------|------|-------------|
 | **Metasploitable** | Linux | [Rapid7 Docs](https://docs.rapid7.com/metasploit/metasploitable/) | Insecure virtual machine full of remote service flaws, perfect for internal testing and exploitation. |
 
----
 
-##  How to Use These Apps
+## How to Use These Apps
 
 1. **Test SAST, DAST, and SCA tools** (e.g., Semgrep, Nuclei, OWASP ZAP) against these apps
 2. Use them as targets in **CI/CD security pipelines** (e.g., GitHub Actions, Jenkins)
@@ -1271,13 +1206,12 @@ These apps simulate common web, cloud, mobile, and serverless vulnerabilities �
 5. Train developers with hands-on **secure coding walkthroughs**
 
 
-#  DevSecOps Conferences & Events
+
+# DevSecOps Conferences and Events
 
 Conferences and meetups are excellent for learning the latest in DevSecOps, sharing experiences, and discovering new tools and practices. Whether you're focused on secure CI/CD, Kubernetes, cloud security, or software supply chain integrity — there are tracks and talks for you.
 
----
-
-##  DevSecOps & AppSec Focused Conferences
+## DevSecOps & AppSec Focused Conferences
 
 | Conference | Link | Description |
 |------------|------|-------------|
@@ -1288,9 +1222,8 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 | **BSides** | [securitybsides.com](https://www.securitybsides.com/) | Community-driven events held globally — practical talks often include DevSecOps tooling and stories. |
 | **DEF CON AppSec Village** | [appsecvillage.dev](https://www.appsecvillage.dev/) | Application Security focus inside DEF CON — includes DevSecOps, CI/CD and cloud security content. |
 
----
 
-## ️ Cloud & Platform Conferences
+## ️Cloud & Platform Conferences
 
 | Conference | Link | Description |
 |------------|------|-------------|
@@ -1301,9 +1234,8 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 | **GitHub Universe** | [githubuniverse.com](https://githubuniverse.com/) | GitHub’s annual event covering secure coding, scanning, and GitHub Actions. |
 | **GitLab Commit** | [about.gitlab.com/events/commit](https://about.gitlab.com/events/commit/) | DevSecOps sessions on pipelines, scanning, secrets, and shift-left practices. |
 
----
 
-##  DevOps + General Tech Conferences (with DevSecOps Content)
+## DevOps + General Tech Conferences (with DevSecOps Content)
 
 | Conference | Link | Description |
 |------------|------|-------------|
@@ -1312,12 +1244,12 @@ Conferences and meetups are excellent for learning the latest in DevSecOps, shar
 | **IP Expo Europe** | [ipexpoeurope.com](http://www.ipexpoeurope.com/) | Broader IT conference with cloud, AI, and cybersecurity tracks (DevSecOps adjacent). |
 | **ISACA Ireland Conference** | [ISACA Ireland](https://www.isaca.org/chapters5/Ireland/conference/pages/Agenda.aspx) | Includes governance, risk, and compliance — intersects with DevSecOps controls and frameworks. |
 
----
 
-##  Why Attend?
+## Why Attend?
 
 - Discover new DevSecOps tools before they’re mainstream
 - Learn from case studies, failures, and real-life pipeline transformations
 - Network with DevOps engineers, AppSec specialists, and tool creators
 - Join live workshops, tool demos, and CTF challenges
 - Gain CPE credits for professional certifications
+
