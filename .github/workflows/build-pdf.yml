@@ -25,6 +25,7 @@ jobs:
             texlive-fonts-recommended \
             texlive-xetex \
             fonts-dejavu \
+            librsvg2-bin
 
       - name: Merge Markdown files
         run: chmod +x merge.sh; ./merge.sh
