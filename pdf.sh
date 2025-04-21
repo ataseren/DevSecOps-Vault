@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pandoc output/devsecops-vault.md -o output/devsecops-vault.pdf \
-  --pdf-engine=lualatex \
+  --pdf-engine=xelatex \
   -V geometry=margin=1in \
   -V mainfont="DejaVu Sans" \
   -V fontsize=11pt \
